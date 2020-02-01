@@ -1,11 +1,13 @@
 import queue
+import time
 
 class Station:
 
     self.ambulancesAtStation = 0
     self.ambulancesEnRoute = 0
-    self.avgWaitTime = 20.0 # minutes
+    self.avgWaitTimeFromData = 15*60 # 15 minutes
     self.totalWaitingTime = 0.0
+    self.avgWaitTimeFromSim = 0.0
 
     self.stationQueue = queue.PriorityQueue() # Queue of ambulances to depart
 
@@ -18,6 +20,8 @@ class Station:
         self.ambulancesAtStation -= 1 # Update number of ambulances at the station and those already dispatched
         self.ambulancesEnRoute += 1
         # After avgWaitingTime call ambulance returned
+        time.sleep(self.avgWaitTime)
+        self.returned()
 
     # After ambulance returns
     def returned(self):

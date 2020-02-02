@@ -7,7 +7,7 @@ class CallCenter:
         self.cc_log = queue.PriorityQueue()
 
     def assign_call(self, station): #this will eventually be a list of stations,
-    #   and calls will be assigned to FEL's based on location
+        # and calls will be assigned to FEL's based on location
         while not self.cc_log.empty():
             # call format: (call_time, type, location)
             call = self.cc_log.get()
@@ -15,8 +15,3 @@ class CallCenter:
             severity = globals.severities[call_type]
             adjusted_calltime = call[0] + severity
             station.stationQueue.put((adjusted_calltime, 'call', call[0]))
-
-
-
-
-

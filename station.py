@@ -32,13 +32,13 @@ class Station:
 
         else:
             eventToProcess = self.stationQueue.get()
-            
+
         if eventToProcess is not None:
             if eventToProcess[1] == 'arrival':
                 self.process_arrival_event(eventToProcess)
             elif eventToProcess[1] == 'call':
                 self.process_call_event(eventToProcess)
-        
+
 
     def process_arrival_event(self, event):
         self.ambulancesAtStation += 1
@@ -55,10 +55,9 @@ class Station:
             globals.now = max(globals.now, event[2])
             self.stationQueue.put((globals.now + self.transitTime, 'arrival'))
             self.totalWaitingTime += (globals.now - event[2])
-            print("processed waiting event")
 
             self.ambulancesAtStation -= 1
-        else: 
+        else:
             print("no ambulances at station")
             self.waitingQueue.put(event)
             print(self.waitingQueue.empty())

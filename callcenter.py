@@ -3,9 +3,12 @@ import queue
 import station
 
 class CallCenter:
+
+    # Priority queue that holds the raw incident events based on time
     def __init__(self):
         self.cc_log = queue.PriorityQueue()
 
+    # gives a weighted time and puts in the the relevant station's stationqueue
     def assign_call(self, station): #this will eventually be a list of stations,
     #   and calls will be assigned to FEL's based on location
         while not self.cc_log.empty():

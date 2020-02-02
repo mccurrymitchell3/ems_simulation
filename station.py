@@ -3,6 +3,8 @@ import globals
 
 class Station:
 
+    # initialize station with number of abulances, using constant transit time
+    # for how long the ambulance will be unavailable when going to incident
     def __init__(self, numAmbulances, transitTime):
         self.ambulancesAtStation = numAmbulances
         self.transitTime = transitTime # 15 minutes
@@ -12,7 +14,11 @@ class Station:
         self.stationQueue = queue.PriorityQueue() # Queue of ambulances to depart
         self.waitingQueue = queue.PriorityQueue() # Queue of calls waiting for an ambulance to return
 
+    # process the next event off of the proper queue
     def process_next_elem(self):
+
+        # if there are ambulances at the station, pick between waiting queue
+        # and station queue for next event
         if self.ambulancesAtStation > 0:
             eventToProcess = None
             if not self.stationQueue.empty() and not self.waitingQueue.empty():
@@ -30,6 +36,8 @@ class Station:
             elif not self.waitingQueue.empty():
                 eventToProcess = self.waitingQueue.get()
 
+        # if there are no ambulances, add call events to waiting queue until
+        # an arrival event is processed (an ambulance is available)
         else:
             eventToProcess = self.stationQueue.get()
 
@@ -39,7 +47,7 @@ class Station:
             elif eventToProcess[1] == 'call':
                 self.process_call_event(eventToProcess)
 
-
+    # ambulance arrival event. Number of ambulances at station is incremented
     def process_arrival_event(self, event):
         self.ambulancesAtStation += 1
         globals.now = event[0]
@@ -48,6 +56,8 @@ class Station:
         print("numAmb", self.ambulancesAtStation)
         print()
 
+    # call event. Dispatch an ambulance if there is one available, otherwise
+    # add the call event to the waiting queue.
     def process_call_event(self, event):
         self.callEventsProcessed += 1
 

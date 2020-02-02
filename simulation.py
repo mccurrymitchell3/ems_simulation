@@ -8,27 +8,26 @@ globals.init()
 s1 = station.Station(3, 15)
 cc = callcenter.CallCenter()
 gen = generator.Generator()
+duration = 100 # minutes to run
 
-#gen.generateAndAdd(cc)
+# Run for duration minutes
+while globals.now < duration:
 
-# events = [(10, 'call', 10), (10, 'call', 9), (5, 'call', 5), (9, 'call', 3)]
-# calls = [(10, 'DUMMY', 12), (9, 'DIFFBR', 1), (5, 'DUMMY', 9), (3, 'INJURY', 9)]
-
-#for event in events:
-#    s1.stationQueue.put(event)
-
-# for call in calls:
-#     print("call", call)
-#     cc.cc_log.put(call)
-
-#cc.assign_call(s1)
-
-while globals.now < 100:
+    # Generate events and pass in the call center
     gen.generateAndAdd(cc)
+
+    # Assign the calls to a station
     cc.assign_call(s1)
+
     startTime = globals.now
+
+    # While there are elements in the priority queue, process the next element
     while (not s1.stationQueue.empty() or not s1.waitingQueue.empty()) and globals.now < startTime + 15:
         s1.process_next_elem()
+
+    # Update the current time and start the next interval
     globals.now = startTime + 15
+
+# Calculate the average waiting time for each call received
 avgWaitingTime = s1.totalWaitingTime / s1.callEventsProcessed
 print("Average Waiting Time: ", avgWaitingTime)

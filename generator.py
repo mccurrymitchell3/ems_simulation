@@ -19,6 +19,7 @@ class Generator:
         print("numEvents:", numEvents)
         # for each event, pick a time, pick a type, assign
         for event in range(numEvents):
+            # assign a random time within the interval
             timeOfEvent = globals.now + random.randint(0, self.intervalMax)
             eventType = random.choice(list(globals.severities.keys()))
             location = 0 #need to fix

@@ -13,25 +13,31 @@ class Station:
         self.waitingQueue = queue.PriorityQueue() # Queue of calls waiting for an ambulance to return
 
     def process_next_elem(self):
-        event = self.stationQueue.get()
-        eventToProcess = event
+        if self.ambulancesAtStation > 0:
+            eventToProcess = None
+            if not self.stationQueue.empty() and not self.waitingQueue.empty():
+                event = self.stationQueue.get()
+                waitEvent = self.waitingQueue.get()
+                eventToProcess = min(event, waitEvent)
 
-        if eventToProcess[1] == 'arrival':
-            self.process_arrival_event(eventToProcess)
-        elif eventToProcess[1] == 'call':
-            if not self.waitingQueue.empty():
-                waitingEvent = self.waitingQueue.get()
-                eventToProcess = min(event, waitingEvent)
-                print("event", event)
-                print("waitingEvent", waitingEvent)
-                print("eventToProcess", eventToProcess)
                 if eventToProcess == event:
-                    self.waitingQueue.put(waitingEvent)
+                    self.waitingQueue.put(waitEvent)
                 else:
                     self.stationQueue.put(event)
 
-            self.process_call_event(eventToProcess)
+            elif not self.stationQueue.empty():
+                eventToProcess = self.stationQueue.get()
+            elif not self.waitingQueue.empty():
+                eventToProcess = self.waitingQueue.get()
+
+        else:
+            eventToProcess = self.stationQueue.get()
             
+        if eventToProcess is not None:
+            if eventToProcess[1] == 'arrival':
+                self.process_arrival_event(eventToProcess)
+            elif eventToProcess[1] == 'call':
+                self.process_call_event(eventToProcess)
         
 
     def process_arrival_event(self, event):

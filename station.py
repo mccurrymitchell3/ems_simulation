@@ -14,13 +14,25 @@ class Station:
 
     def process_next_elem(self):
         event = self.stationQueue.get()
-        #if not self.waitingQueue.empty():
-        #    waitingEvent = self.waitingQueue.get()
-        #eventToProcess = min(event, waitingEvent)
-        if event[1] == 'arrival':
-            self.process_arrival_event(event)
-        elif event[1] == 'call':
-            self.process_call_event(event)
+        eventToProcess = event
+
+        if eventToProcess[1] == 'arrival':
+            self.process_arrival_event(eventToProcess)
+        elif eventToProcess[1] == 'call':
+            if not self.waitingQueue.empty():
+                waitingEvent = self.waitingQueue.get()
+                eventToProcess = min(event, waitingEvent)
+                print("event", event)
+                print("waitingEvent", waitingEvent)
+                print("eventToProcess", eventToProcess)
+                if eventToProcess == event:
+                    self.waitingQueue.put(waitingEvent)
+                else:
+                    self.stationQueue.put(event)
+
+            self.process_call_event(eventToProcess)
+            
+        
 
     def process_arrival_event(self, event):
         self.ambulancesAtStation += 1
@@ -34,29 +46,10 @@ class Station:
         self.callEventsProcessed += 1
 
         if self.ambulancesAtStation > 0:
-
-            if not self.waitingQueue.empty():
-                waitingEvent = self.waitingQueue.get()
-                print("we", waitingEvent)
-                print("e", event)
-                if waitingEvent[0] < event[0]:
-                    globals.now = max(globals.now, waitingEvent[2])
-                    self.stationQueue.put((globals.now + self.transitTime, 'arrival'))
-                    self.stationQueue.put(event)
-                    self.totalWaitingTime += (globals.now - waitingEvent[2])
-                    print("processed waiting event")
-                else:
-                    globals.now = max(globals.now, event[2])
-                    self.stationQueue.put((globals.now + self.transitTime, 'arrival'))
-                    self.waitingQueue.put(waitingEvent)
-                    self.totalWaitingTime += (globals.now - event[2])
-                    print("proccessed station event")
-            else:
-                globals.now = max(globals.now, event[2])
-                self.stationQueue.put((globals.now + self.transitTime, 'arrival'))
-                self.totalWaitingTime
-                self.totalWaitingTime += (globals.now - event[2])
-                print("proccessed station event")
+            globals.now = max(globals.now, event[2])
+            self.stationQueue.put((globals.now + self.transitTime, 'arrival'))
+            self.totalWaitingTime += (globals.now - event[2])
+            print("processed waiting event")
 
             self.ambulancesAtStation -= 1
         else: 

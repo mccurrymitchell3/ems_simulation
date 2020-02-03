@@ -19,7 +19,7 @@ class Station:
     # processes the next element either in the stationQueue or the waitingQueue,
     # depending on the time of the event and whether or not there is an ambulance
     # available to be dispatched
-    def process_next_elem(self):
+    def process_next_elem(self, startTime):
         # if there are ambulances available, we can process either a call or an arrival.
         # In this case, we just grab whichever event happens sooner in the queue
         if self.ambulancesAtStation > 0:
@@ -28,22 +28,35 @@ class Station:
             # need to pick the sooner one, and re-add the event we did not use back to
             # its original queue
             if not self.stationQueue.empty() and not self.waitingQueue.empty():
-                event = self.stationQueue.get()
-                waitEvent = self.waitingQueue.get()
+                event = self.stationQueue.queue[0]
+                waitEvent = self.waitingQueue.queue[0]
                 eventToProcess = min(event, waitEvent)
 
-                if eventToProcess == event:
-                    self.waitingQueue.put(waitEvent)
+                if eventToProcess[0] <= startTime + 15:
+                    if eventToProcess == event:
+                        eventToProcess = self.stationQueue.get()
+                    else:
+                        eventToProcess = self.waitingQueue.get()
                 else:
-                    self.stationQueue.put(event)
+                    globals.now = eventToProcess[2]
+                    eventToProcess = None
+
             # if there are only elements in the stationQueue, we use the next
             # element in the stationQueue
             elif not self.stationQueue.empty():
-                eventToProcess = self.stationQueue.get()
+                if self.stationQueue.queue[0][0] <= startTime + 15:
+                    eventToProcess = self.stationQueue.get()
+                else:
+                    eventToProcess = None
+                    globals.now = self.stationQueue.queue[0][0]
             # if there are only elements in the waitingQueue, we use the next
             # element in the waitingQueue
             elif not self.waitingQueue.empty():
-                eventToProcess = self.waitingQueue.get()
+                if self.waitingQueue.queue[0][0] <= startTime + 15:
+                    eventToProcess = self.waitingQueue.get()
+                else:
+                    eventToProcess = None
+                    globals.now = self.waitingQueue.queue[0][0]
 
         # if there are no more ambulances, we cannot process any calls of the
         # waiting queue. We must pull from the stationQueue, and if that
@@ -53,7 +66,7 @@ class Station:
         else:
             eventToProcess = self.stationQueue.get()
 
-        # send the event object to the correct method based on event type
+        # send the event object to the correct method based on event type or end the simulation
         if eventToProcess is not None:
             if eventToProcess[1] == 'arrival':
                 self.process_arrival_event(eventToProcess)
@@ -82,16 +95,20 @@ class Station:
 
         # if there are ambulances at the station, an ambulance may be dispatched
         if self.ambulancesAtStation > 0:
-            # time must be updated to the later of the current time, and the
+
+            # time must be updated to the later of the current time and the
             # time the call was placed, as an ambulance cannot be dispatched
             # prior to a call being received.
             globals.now = max(globals.now, event[2])
+
             # create an arrival event and add it to the queue
             self.stationQueue.put((globals.now + self.transitTime, 'arrival'))
+
             # update total waiting time for this station
             # waiting time is the amount of time between when the call was placed,
             # and when an ambulance was dispatched.
             self.totalWaitingTime += (globals.now - event[2])
+
             # mark that an ambulance has left and there is now 1 less ambulance
             # available for dispatch
             self.ambulancesAtStation -= 1

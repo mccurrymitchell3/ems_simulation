@@ -92,7 +92,6 @@ class Station:
     def process_call_event(self, event):
         # updated to reflect number of calls in order to determine accurate
         # average wait time
-        self.callEventsProcessed += 1
 
         # if there are ambulances at the station, an ambulance may be dispatched
         if self.ambulancesAtStation > 0:
@@ -113,6 +112,9 @@ class Station:
             # mark that an ambulance has left and there is now 1 less ambulance
             # available for dispatch
             self.ambulancesAtStation -= 1
+            
+            # increment indicdents processed counter
+            self.callEventsProcessed += 1
         else:
             # if there are no ambulances available, move the call to the waiting
             # queue to be processed once an ambulance is available

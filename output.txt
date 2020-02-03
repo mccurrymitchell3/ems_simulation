@@ -1,0 +1,36 @@
+Number of Ambulances: 1
+Station One Average Waiting Time: 111.7
+Station Two Average Waiting Time: 99.575
+
+Number of Ambulances: 2
+Station One Average Waiting Time: 81.9
+Station Two Average Waiting Time: 93.13333333333334
+
+Number of Ambulances: 3
+Station One Average Waiting Time: 77.75438596491227
+Station Two Average Waiting Time: 27.474358974358974
+
+Number of Ambulances: 4
+Station One Average Waiting Time: 45.50666666666667
+Station Two Average Waiting Time: 23.99
+
+Number of Ambulances: 5
+Station One Average Waiting Time: 10.583333333333334
+Station Two Average Waiting Time: 15.582608695652175
+
+Number of Ambulances: 6
+Station One Average Waiting Time: 4.923809523809524
+Station Two Average Waiting Time: 3.2358490566037736
+
+Number of Ambulances: 7
+Station One Average Waiting Time: 4.302521008403361
+Station Two Average Waiting Time: 3.2950819672131146
+
+Number of Ambulances: 8
+Station One Average Waiting Time: 3.963963963963964
+Station Two Average Waiting Time: 2.3587786259541983
+
+Number of Ambulances: 9
+Station One Average Waiting Time: 2.1315789473684212
+Station Two Average Waiting Time: 2.433333333333333
+

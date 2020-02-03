@@ -4,7 +4,7 @@ def init():
     now = 0
 
     global severities
-    
+
     # Descriptions of EMS Calls and their corresponding severities
     severities = {
         'CARDBR': 3,
@@ -114,6 +114,5 @@ def init():
         'MCI44P': 2,
         'ASTHFT': 3,
         'STATFT': 2,
-        'MCI25P': 2,
-        'DUMMY': 0
+        'MCI25P': 2
     }

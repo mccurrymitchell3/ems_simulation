@@ -17,6 +17,7 @@ duration = 100 # minutes to run
 
 # Run for duration minutes
 while globals.now < duration:
+    print("now ", globals.now)
 
     # Generate events and pass in the call center
     gen.generateAndAdd(cc)

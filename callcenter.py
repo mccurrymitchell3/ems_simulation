@@ -9,7 +9,7 @@ class CallCenter:
         self.cc_log = queue.PriorityQueue()
 
     # gives a weighted time and puts the calls in the relevant stations' stationqueue
-    def assign_call(self, station): # List of stations
+    def assign_call(self, stations): # List of stations
         while not self.cc_log.empty():
             # call format: (call_time, type, location)
             call = self.cc_log.get()

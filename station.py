@@ -7,8 +7,7 @@ class Station:
     # for how long the ambulance will be unavailable when going to incident
     def __init__(self, numAmbulances, transitTime):
         self.ambulancesAtStation = numAmbulances
-        self.transitTime = transitTime # 15 minutes, hardcoded for now until more stations
-        #   are added and different locations are supported
+        self.transitTime = transitTime # hardcoded for now, needs to be changed to fit the data
 
         # initialize values
         self.totalWaitingTime = 0.0

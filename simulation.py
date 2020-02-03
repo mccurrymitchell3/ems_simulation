@@ -5,15 +5,15 @@ import generator
 
 globals.init()
 
-s1 = station.Station(3, 15) # Number of ambulances available at the station,
-                            # average time en route for each ambulance from this station
-s2 = station.Station(3, 15)
+s1 = station.Station(3, 15) # (Number of ambulances available at the station,
+                            # average time en route for each ambulance from this station)
+s2 = station.Station(4, 12)
 
 stations = [s1, s2]
 
 cc = callcenter.CallCenter()
 gen = generator.Generator()
-duration = 100 # minutes to run
+duration = 300 # minutes to run
 
 # Run for duration minutes
 while globals.now < duration:

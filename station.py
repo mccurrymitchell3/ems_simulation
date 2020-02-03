@@ -3,6 +3,8 @@ import globals
 
 class Station:
 
+    # initialize station with number of abulances, using constant transit time
+    # for how long the ambulance will be unavailable when going to incident
     def __init__(self, numAmbulances, transitTime):
         self.ambulancesAtStation = numAmbulances
         self.transitTime = transitTime # 15 minutes, hardcoded for now until more stations

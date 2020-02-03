@@ -4,11 +4,14 @@ import random
 
 class Generator:
 
+    # generates incidents at 15 minute intervals
     def __init__(self):
         #self.callRate = 1 #this will eventually be a curve
         self.intervalMax = 15
 
 
+    # generates a random number of events for the interval and generates random 
+    # incident times, event times, and locations
     def generateAndAdd(self, cc):
         # get num events for each to be generated
         print("generating events")
@@ -16,6 +19,7 @@ class Generator:
         print("numEvents:", numEvents)
         # for each event, pick a time, pick a type, assign
         for event in range(numEvents):
+            # assign a random time within the interval
             timeOfEvent = globals.now + random.randint(0, self.intervalMax)
             eventType = random.choice(list(globals.severities.keys()))
             location = random.randint(0, 1) #need to fix

@@ -15,7 +15,7 @@ class Generator:
     def generateAndAdd(self, cc):
         # get num events for each to be generated
         print("generating events")
-        numEvents = random.randint(0, 5) #this is hardcoded. need to fix based on curve
+        numEvents = random.randint(6, 18) # this range is based on the min and max number of calls averaged over a week from our data source.
         print("numEvents:", numEvents)
         # for each event, pick a time, pick a type, assign
         for event in range(numEvents):

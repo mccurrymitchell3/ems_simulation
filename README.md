@@ -6,6 +6,6 @@ This repository is meant to simulate EMS calls in Brooklyn, NY by randomly gener
 
 ## Running the code
 
-To run our simulation, clone/download our repository and run ```py simulation.py```.
+To run our simulation, clone/download our repository and import the module "python/3.6" on the PACE Cluster (```module load python/3.6```) and then run ```python simulation.py```.
 
 The number of ambulances available at a station can be changed in the ```simulation.py``` file.

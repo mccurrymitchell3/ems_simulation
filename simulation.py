@@ -5,9 +5,9 @@ import generator
 
 globals.init()
 
-s1 = station.Station(3, 15) # (Number of ambulances available at the station,
+s1 = station.Station(6, 15) # (Number of ambulances available at the station,
                             # average time en route for each ambulance from this station)
-s2 = station.Station(4, 12)
+s2 = station.Station(6, 12)
 
 stations = [s1, s2]
 

@@ -6,9 +6,10 @@ import generator
 globals.init()
 output = []
 
+# Generate 10 stations representing the 10 stations in Brooklyn and their average route times
 def generateStations(numAmbulances):
-    s1 = station.Station(numAmbulances, 15) # (Number of ambulances available at the station,
-    s2 = station.Station(numAmbulances, 12) # average time en route for each ambulance from this station)
+    s1 = station.Station(numAmbulances, 15)
+    s2 = station.Station(numAmbulances, 12)
     s3 = station.Station(numAmbulances, 17)
     s4 = station.Station(numAmbulances, 10)
     s5 = station.Station(numAmbulances, 13)

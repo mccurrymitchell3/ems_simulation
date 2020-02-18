@@ -6,7 +6,7 @@ import generator
 globals.init()
 output = []
 
-def generateStations():
+def generateStations(numAmbulances):
     s1 = station.Station(numAmbulances, 15) # (Number of ambulances available at the station,
     s2 = station.Station(numAmbulances, 12) # average time en route for each ambulance from this station)
     s3 = station.Station(numAmbulances, 17)
@@ -27,7 +27,7 @@ def generateStations():
 # the average wait time depending on number of ambulances available
 for numAmbulances in range(1, 10):
 
-    stations = generateStations()
+    stations = generateStations(numAmbulances)
 
     cc = callcenter.CallCenter()
     gen = generator.Generator()

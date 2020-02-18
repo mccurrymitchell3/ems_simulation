@@ -22,7 +22,7 @@ class Generator:
             # assign a random time within the interval
             timeOfEvent = globals.now + random.randint(0, self.intervalMax)
             eventType = random.choice(list(globals.severities.keys()))
-            location = random.randint(0, 1) #need to fix
+            location = random.randint(0, 9) #need to fix
 
             print((timeOfEvent, eventType, location))
 

@@ -6,15 +6,28 @@ import generator
 globals.init()
 output = []
 
+def generateStations():
+    s1 = station.Station(numAmbulances, 15) # (Number of ambulances available at the station,
+    s2 = station.Station(numAmbulances, 12) # average time en route for each ambulance from this station)
+    s3 = station.Station(numAmbulances, 17)
+    s4 = station.Station(numAmbulances, 10)
+    s5 = station.Station(numAmbulances, 13)
+    s6 = station.Station(numAmbulances, 14)
+    s7 = station.Station(numAmbulances, 9)
+    s8 = station.Station(numAmbulances, 11)
+    s9 = station.Station(numAmbulances, 13)
+    s10 = station.Station(numAmbulances, 15)
+
+    stations = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]
+
+    return stations
+
+
 # we run the simulation for a varying number of ambulances per station, documenting
 # the average wait time depending on number of ambulances available
 for numAmbulances in range(1, 10):
 
-    s1 = station.Station(numAmbulances, 15) # (Number of ambulances available at the station,
-                                # average time en route for each ambulance from this station)
-    s2 = station.Station(numAmbulances, 12)
-
-    stations = [s1, s2]
+    stations = generateStations()
 
     cc = callcenter.CallCenter()
     gen = generator.Generator()
@@ -30,18 +43,18 @@ for numAmbulances in range(1, 10):
         # Assign the calls to a station
         cc.assign_call(stations)
 
-        startTime = globals.now
-        print("STATION 1")
-        # While there are elements in the priority queue, process the next element
-        while (not s1.stationQueue.empty() or not s1.waitingQueue.empty()) and globals.now < startTime + 15:
-            s1.process_next_elem(startTime)
+        for i in range(0, len(stations)):
+            startTime = globals.now
+            stationNumber = i + 1
+            print("STATION %s" % stationNumber)
+            s = stations[i]
+            # While there are elements in the priority queue, process the next element
+            while (not s.stationQueue.empty() or not s.waitingQueue.empty()) and globals.now < startTime + 15:
+                s.process_next_elem(startTime)
 
-        # Reset start time for station two, so that it technically is running
-        # at the same time as station one but without multithreading
-        globals.now = startTime
-        print("STATION 2")
-        while (not s2.stationQueue.empty() or not s2.waitingQueue.empty()) and globals.now < startTime + 15:
-            s2.process_next_elem(startTime)
+            # Reset start time for station two, so that it technically is running
+            # at the same time as station one but without multithreading
+            globals.now = startTime
 
         # Update the current time and start the next interval
         globals.now = startTime + 15
@@ -51,14 +64,24 @@ for numAmbulances in range(1, 10):
 
     # Calculate the average waiting time for each call received
     print("numAmbulances", numAmbulances)
-    print("Station One Average Waiting Time: ", s1.totalWaitingTime / s1.callEventsProcessed)
-    print("Station Two Average Waiting Time: ", s2.totalWaitingTime / s2.callEventsProcessed)
+    for i in range(0, len(stations)):
+        s = stations[i]
+        stationNumber = i + 1
+        if s.callEventsProcessed == 0:
+            print("Station %s Average Waiting Time: " % stationNumber, 0)
+        else:
+            print("Station %s Average Waiting Time: " % stationNumber, s.totalWaitingTime / s.callEventsProcessed)
 
     # Add average waiting times for each call received to output list.
     # These stats will be written to the 'output.txt'.
     output.append("Number of Ambulances: {}\n".format(numAmbulances))
-    output.append("Station One Average Waiting Time: {}\n".format(s1.totalWaitingTime / s1.callEventsProcessed))
-    output.append("Station Two Average Waiting Time: {}\n\n".format(s2.totalWaitingTime / s2.callEventsProcessed))
+    for i in range(0, len(stations)):
+        s = stations[i]
+        stationNumber = i + 1
+        if s.callEventsProcessed == 0:
+            output.append("Station %s Average Waiting Time: %s\n" % (stationNumber, 0))
+        else:
+            output.append("Station %s Average Waiting Time: %s\n" % (stationNumber, s.totalWaitingTime / s.callEventsProcessed))
 
 # Write the statistics calculated for each number of ambulances to 'output.txt'.
 file = open("output.txt", "w")

@@ -111,16 +111,23 @@ def init():
                             1: 0.019097629685846915,
                             8: 0.0014981256977909775}
 
- 	global severity_weights_list
-	severity_weights_list = [0.019097629685846915, 0.2305695144215619, 0.13628264491935052,
-		0.16728339142317555, 0.17751217547007442, 0.16517475574117008, 0.10258176264102964, 
-		0.0014981256977909775]
 
-	global severity_list 
-	severity_list = [1, 2, 3, 4, 5, 6, 7, 8]
+    global severity_weights_list
+    severity_weights_list = [0.019097629685846915, 0.2305695144215619, 0.13628264491935052,
+                            0.16728339142317555, 0.17751217547007442, 0.16517475574117008, 0.10258176264102964,
+                            0.0014981256977909775]
 
-	global callfreq_by_time
-	callfreq_weekdays = {datetime.time(0, 0): 9,
+    # # grouped incident descriptions from 1 - 8
+    # global severity_list 
+    # severity_list = [['ARREST', 'CHOKE'], ['CARDBR', 'TRAUMA', 'DIFFBR', 'ASTHMB', 'UNC', 'STATEP', 'CVAC', 'ANAPH', 'JUMPDN', 'ACTIVE', 'MCI21', 'OBCOMP', 'DROWN', 'MCI77', 'DIFFFC', 'MEDVAC', 'ASTHFC', 'VENOM', 'MCI21P', 'MCI43P', 'CVACFC', 'DIFFRF', 'MCI26P', 'STATFC', 'MCI29P', 'MCI22P'], ['SEIZR', 'PEDSTR', 'INJMAJ', 'CARD', 'SHOT', 'ALTMEN', 'INBLED', 'STAB', 'OBMAJ', 'GYNMAJ', 'OBOUT', 'BURNMA', 'ELECT', 'PD13C', 'AMPMAJ', 'CARDFC',
+    #                                                                                                                                                                                                                                                                                                 'INBLFC', 'ALTMFC', 'SEIZFC', 'INJALS', 'SICKFT'], ['MVAINJ', 'UNKNOW', 'DRUG', 'SICPED', 'RESPIR', 'CVA', 'OBMIS', 'HEAT', 'PEDFC', 'RESPFC', 'PEDRF', 'CVAFC', 'DRUGFC'], ['INJURY', 'OBLAB', 'EDPC', 'GYNHEM', 'ABDPN', 'INHALE', 'MEDRXN', 'COLD', 'AMPMIN', 'ABDPFC', 'MEDRFC'], ['SICK', 'OTHER', 'SAFE', 'MVA', 'CHILDA', 'SICKFC', 'SICKRF', 'RAPE'], ['EDP', 'INJMIN', 'SICMIN', 'HYPTN', 'BURNMI', 'PD13', 'JUMPUP'], ['STNDBY', 'STRANS', 'SPEVNT']]
+
+    global severity_to_description
+    severity_to_description = {1: ['ARREST', 'CHOKE'], 2: ['CARDBR', 'TRAUMA', 'DIFFBR', 'ASTHMB', 'UNC', 'STATEP', 'CVAC', 'ANAPH', 'JUMPDN', 'ACTIVE', 'MCI21', 'OBCOMP', 'DROWN', 'MCI77', 'DIFFFC', 'MEDVAC', 'ASTHFC', 'VENOM', 'MCI21P', 'MCI43P', 'CVACFC', 'DIFFRF', 'MCI26P', 'STATFC', 'MCI29P', 'MCI22P'], 3: ['SEIZR', 'PEDSTR', 'INJMAJ', 'CARD', 'SHOT', 'ALTMEN', 'INBLED', 'STAB', 'OBMAJ', 'GYNMAJ', 'OBOUT', 'BURNMA', 'ELECT', 'PD13C', 'AMPMAJ', 'CARDFC',
+                                                                                                                                                                                                                                                                                                                          'INBLFC', 'ALTMFC', 'SEIZFC', 'INJALS', 'SICKFT'], 4: ['MVAINJ', 'UNKNOW', 'DRUG', 'SICPED', 'RESPIR', 'CVA', 'OBMIS', 'HEAT', 'PEDFC', 'RESPFC', 'PEDRF', 'CVAFC', 'DRUGFC'], 5: ['INJURY', 'OBLAB', 'EDPC', 'GYNHEM', 'ABDPN', 'INHALE', 'MEDRXN', 'COLD', 'AMPMIN', 'ABDPFC', 'MEDRFC'], 6: ['SICK', 'OTHER', 'SAFE', 'MVA', 'CHILDA', 'SICKFC', 'SICKRF', 'RAPE'], 7: ['EDP', 'INJMIN', 'SICMIN', 'HYPTN', 'BURNMI', 'PD13', 'JUMPUP'], 8: ['STNDBY', 'STRANS', 'SPEVNT']}
+
+    global callfreq_by_time
+    callfreq_weekdays = {datetime.time(0, 0): 9,
                       datetime.time(0, 15): 8,
                       datetime.time(0, 30): 8,
                       datetime.time(0, 45): 8,
@@ -217,7 +224,7 @@ def init():
                       datetime.time(23, 30): 9,
                       datetime.time(23, 45): 9}
 
-	callfreq_weekends = {datetime.time(0, 0): 10,
+    callfreq_weekends = {datetime.time(0, 0): 10,
                       datetime.time(0, 15): 10,
                       datetime.time(0, 30): 10,
                       datetime.time(0, 45): 9,

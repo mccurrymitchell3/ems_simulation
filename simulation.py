@@ -26,7 +26,7 @@ def generateStations(numAmbulances):
 
 # we run the simulation for a varying number of ambulances per station, documenting
 # the average wait time depending on number of ambulances available
-for numAmbulances in range(1, 10):
+for numAmbulances in range(99, 100):
 
     stations = generateStations(numAmbulances)
 
@@ -50,7 +50,7 @@ for numAmbulances in range(1, 10):
             print("STATION %s" % stationNumber)
             s = stations[i]
             # While there are elements in the priority queue, process the next element
-            while (not s.stationQueue.empty() or not s.waitingQueue.empty()) and globals.now < startTime + 15:
+            while (not s.callQueue.empty() or not s.arrivalQueue.empty()) and globals.now < startTime + 15:
                 s.process_next_elem(startTime)
 
             # Reset start time for station two, so that it technically is running

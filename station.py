@@ -12,6 +12,7 @@ class Station:
         # initialize values
         self.totalWaitingTime = 0.0
         self.avgWaitTime = 0.0
+        self.maxWaitTime = 0.0
         self.callEventsProcessed = 0
 
         self.stationQueue = queue.PriorityQueue() # Queue of ambulances to depart
@@ -107,7 +108,11 @@ class Station:
             # update total waiting time for this station
             # waiting time is the amount of time between when the call was placed,
             # and when an ambulance was dispatched.
-            self.totalWaitingTime += (globals.now - event[2])
+            waitTime = (globals.now - event[2])
+            self.totalWaitingTime += waitTime
+
+            if waitTime > self.maxWaitTime:
+                self.maxWaitTime = waitTime
 
             # mark that an ambulance has left and there is now 1 less ambulance
             # available for dispatch
@@ -125,4 +130,5 @@ class Station:
         print("now", globals.now)
         print("numAmb", self.ambulancesAtStation)
         print("total waiting time", self.totalWaitingTime)
+        print("max wait time", self.maxWaitTime)
         print()

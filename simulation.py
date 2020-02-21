@@ -70,8 +70,10 @@ for numAmbulances in range(1, 10):
         stationNumber = i + 1
         if s.callEventsProcessed == 0:
             print("Station %s Average Waiting Time: " % stationNumber, 0)
+            print("Station %s Maximum Waiting Time: " % stationNumber, 0)
         else:
             print("Station %s Average Waiting Time: " % stationNumber, s.totalWaitingTime / s.callEventsProcessed)
+            print("Station %s Maximum Waiting Time: " % stationNumber, s.maxWaitTime)
 
     # Add average waiting times for each call received to output list.
     # These stats will be written to the 'output.txt'.
@@ -81,8 +83,10 @@ for numAmbulances in range(1, 10):
         stationNumber = i + 1
         if s.callEventsProcessed == 0:
             output.append("Station %s Average Waiting Time: %s\n" % (stationNumber, 0))
+            output.append("Station %s Maximum Waiting Time: %s\n" % (stationNumber, 0))
         else:
             output.append("Station %s Average Waiting Time: %s\n" % (stationNumber, s.totalWaitingTime / s.callEventsProcessed))
+            output.append("Station %s Maximum Waiting Time: %s\n" % (stationNumber, s.maxWaitTime))
 
 # Write the statistics calculated for each number of ambulances to 'output.txt'.
 file = open("output.txt", "w")

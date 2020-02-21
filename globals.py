@@ -1,4 +1,6 @@
 
+import datetime
+
 def init():
     global now
     now = 0
@@ -209,7 +211,7 @@ def init():
  datetime.time(23, 45): 9}
 
 
- callfreq_weekends = {datetime.time(0, 0): 10,
+    callfreq_weekends = {datetime.time(0, 0): 10,
  datetime.time(0, 15): 10,
  datetime.time(0, 30): 10,
  datetime.time(0, 45): 9,

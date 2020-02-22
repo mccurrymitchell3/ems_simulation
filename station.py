@@ -14,6 +14,10 @@ class Station:
         self.avgWaitTime = 0.0
         self.maxWaitTime = 0.0
         self.callEventsProcessed = 0
+        self.severeCallEvents = 0
+        self.totalWaitingTimeSevere = 0
+        self.avgWaitTimeSevere = 0
+        self.maxWaitTimeSevere = 0
 
         self.callQueue = queue.PriorityQueue()
         self.arrivalQueue = queue.PriorityQueue()
@@ -103,9 +107,15 @@ class Station:
         # and when an ambulance was dispatched.
         waitTime = (globals.now - event[2])
         self.totalWaitingTime += waitTime
+        if event[3] <= 3:
+            self.totalWaitingTimeSevere += waitTime
+            self.severeCallEvents += 1
 
         if waitTime > self.maxWaitTime:
             self.maxWaitTime = waitTime
+
+        if waitTime > self.maxWaitTimeSevere:
+            self.maxWaitTimeSevere = waitTime
 
         # mark that an ambulance has left and there is now 1 less ambulance
         # available for dispatch

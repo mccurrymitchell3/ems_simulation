@@ -16,4 +16,4 @@ class CallCenter:
             call_type = call[1]
             severity = globals.severities[call_type]
             adjusted_calltime = call[0] + severity
-            stations[call[2]].callQueue.put((adjusted_calltime, 'call', call[0], severity))
+            stations[globals.zip_to_station[call[2]]].callQueue.put((adjusted_calltime, 'call', call[0], severity))

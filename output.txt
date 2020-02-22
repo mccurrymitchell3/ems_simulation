@@ -1,23 +1,23 @@
 Number of Ambulances: 99
-Station 1 Average Waiting Time: 0.37142857142857144
-Station 1 Maximum Waiting Time: 4
-Station 2 Average Waiting Time: 0.4090909090909091
+Station 1 Average Waiting Time: 0.7777777777777778
+Station 1 Maximum Waiting Time: 5
+Station 2 Average Waiting Time: 0.7777777777777778
 Station 2 Maximum Waiting Time: 3
-Station 3 Average Waiting Time: 1.0
-Station 3 Maximum Waiting Time: 5
-Station 4 Average Waiting Time: 0.3684210526315789
+Station 3 Average Waiting Time: 0.5714285714285714
+Station 3 Maximum Waiting Time: 6
+Station 4 Average Waiting Time: 0.3548387096774194
 Station 4 Maximum Waiting Time: 3
-Station 5 Average Waiting Time: 0.36363636363636365
-Station 5 Maximum Waiting Time: 3
-Station 6 Average Waiting Time: 0.47368421052631576
-Station 6 Maximum Waiting Time: 4
-Station 7 Average Waiting Time: 0.8846153846153846
-Station 7 Maximum Waiting Time: 6
-Station 8 Average Waiting Time: 0.2857142857142857
-Station 8 Maximum Waiting Time: 2
-Station 9 Average Waiting Time: 0.0
-Station 9 Maximum Waiting Time: 0.0
-Station 10 Average Waiting Time: 0.4838709677419355
-Station 10 Maximum Waiting Time: 5
-Average Wait Time Across All Stations: 0.4640461745385345
-Average Wait Time For Severe Cases Across All Stations: 0.17382756132756133
+Station 5 Average Waiting Time: 0.8181818181818182
+Station 5 Maximum Waiting Time: 5
+Station 6 Average Waiting Time: 0.4
+Station 6 Maximum Waiting Time: 6
+Station 7 Average Waiting Time: 0.8823529411764706
+Station 7 Maximum Waiting Time: 5
+Station 8 Average Waiting Time: 0.6666666666666666
+Station 8 Maximum Waiting Time: 6
+Station 9 Average Waiting Time: 0.8888888888888888
+Station 9 Maximum Waiting Time: 5
+Station 10 Average Waiting Time: 0.2857142857142857
+Station 10 Maximum Waiting Time: 2
+Average Wait Time Across All Stations: 0.6423627437289677
+Average Wait Time For Severe Cases Across All Stations: 0.15580409356725144

@@ -23,8 +23,9 @@ class Generator:
             timeOfEvent = globals.now + random.randint(0, self.intervalMax)
             severity = random.choices([1, 2, 3, 4, 5, 6, 7, 8], globals.severity_weights_list)[0]
             eventType = random.choice(globals.severity_to_description[severity])
-            location = random.randint(0, 9) #need to fix
-
+            # location = random.randint(0, 9) #need to fix
+            location = random.choices(list(globals.zipcode_frequency.keys()), list(globals.zipcode_frequency.values()))[0]
+            print('location', location)
             print((timeOfEvent, eventType, location))
 
             cc.cc_log.put((timeOfEvent, eventType, location))

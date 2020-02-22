@@ -6,6 +6,10 @@ def init():
     global now
     now = 0
 
+    # choose between 'weekday' and 'weekend'
+    global day_type
+    day_type = 'weekday'
+
     global severities
 
     # Descriptions of EMS Calls and their corresponding severities

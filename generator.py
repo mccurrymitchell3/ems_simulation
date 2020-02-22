@@ -1,6 +1,7 @@
 import callcenter
 import globals
 import random
+import datetime
 
 class Generator:
 
@@ -15,7 +16,17 @@ class Generator:
     def generateAndAdd(self, cc):
         # get num events for each to be generated
         print("generating events")
-        numEvents = random.randint(6, 18) # this range is based on the min and max number of calls averaged over a week from our data source.
+        # numEvents = random.randint(6, 18) # this range is based on the min and max number of calls averaged over a week from our data source.
+
+        hour = globals.now // 60
+        mins = globals.now % 60
+        if globals.day_type == 'weekend':
+            freq_range = globals.callfreq_weekdays_range[datetime.time(hour, mins)]
+        else:
+            freq_range = globals.callfreq_weekends_range[datetime.time(hour, mins)]
+
+        numEvents = random.randint(freq_range[0], freq_range[1])
+
         print("numEvents:", numEvents)
         # for each event, pick a time, pick a type, assign
         for event in range(numEvents):

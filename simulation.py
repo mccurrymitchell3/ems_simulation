@@ -26,7 +26,7 @@ def generateStations(numAmbulances):
 
 # we run the simulation for a varying number of ambulances per station, documenting
 # the average wait time depending on number of ambulances available
-for numAmbulances in range(99, 100):
+for numAmbulances in range(1, 10):
 
     stations = generateStations(numAmbulances)
 
@@ -74,15 +74,18 @@ for numAmbulances in range(99, 100):
         if s.callEventsProcessed == 0:
             print("Station %s Average Waiting Time: " % stationNumber, 0)
             print("Station %s Maximum Waiting Time: " % stationNumber, 0)
-            print("Station %s Average Waiting Time For Severe Cases: " % stationNumber, 0)
-            print("Station %s Maximum Waiting Time For Severe Cases: " % stationNumber, 0)
         else:
             print("Station %s Average Waiting Time: " % stationNumber, s.totalWaitingTime / s.callEventsProcessed)
             print("Station %s Maximum Waiting Time: " % stationNumber, s.maxWaitTime)
+            totalAvgWaitTime += s.totalWaitingTime / s.callEventsProcessed
+        if s.severeCallEvents == 0:
+            print("Station %s Average Waiting Time For Severe Cases: " % stationNumber, 0)
+            print("Station %s Maximum Waiting Time For Severe Cases: " % stationNumber, 0)
+        else:
             print("Station %s Average Waiting Time For Severe Cases: " % stationNumber, s.totalWaitingTimeSevere / s.severeCallEvents)
             print("Station %s Maximum Waiting Time For Severe Cases: " % stationNumber, s.maxWaitTimeSevere)
-            totalAvgWaitTime += s.totalWaitingTime / s.callEventsProcessed
             totalAvgWaitTimeSevere += s.totalWaitingTimeSevere / s.severeCallEvents
+
     print("Average Wait Time Across All Stations: ", totalAvgWaitTime / len(stations))
     print("Average Wait Time Across All Stations: ", totalAvgWaitTimeSevere / len(stations))
 
@@ -98,6 +101,12 @@ for numAmbulances in range(99, 100):
         else:
             output.append("Station %s Average Waiting Time: %s\n" % (stationNumber, s.totalWaitingTime / s.callEventsProcessed))
             output.append("Station %s Maximum Waiting Time: %s\n" % (stationNumber, s.maxWaitTime))
+        if s.severeCallEvents == 0:
+            output.append("Station %s Average Waiting Time For Severe Cases: %s\n" % (stationNumber, 0))
+            output.append("Station %s Maximum Waiting Time For Severe Cases: %s\n" % (stationNumber, 0))
+        else:
+            output.append("Station %s Average Waiting Time For Severe Cases: %s\n" % (stationNumber, s.totalWaitingTimeSevere / s.severeCallEvents))
+            output.append("Station %s Maximum Waiting Time For Severe Cases: %s\n" % (stationNumber, s.maxWaitTimeSevere))
     output.append("Average Wait Time Across All Stations: %s\n" % (totalAvgWaitTime / len(stations)))
     output.append("Average Wait Time For Severe Cases Across All Stations: %s\n" % (totalAvgWaitTimeSevere / len(stations)))
 # Write the statistics calculated for each number of ambulances to 'output.txt'.

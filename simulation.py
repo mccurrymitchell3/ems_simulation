@@ -33,7 +33,7 @@ for numAmbulances in range(1, 13):
 
     cc = callcenter.CallCenter()
     gen = incidents.Incidents()
-    duration = 300 # minutes to run simulation
+    duration = 1425 # minutes to run simulation
 
     # Run for duration minutes
     while globals.now < duration:

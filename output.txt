@@ -1,540 +1,995 @@
-Number of Ambulances: 1
-Station 1 Average Waiting Time: 84.75
-Station 1 Maximum Waiting Time: 175
-Station 1 Average Waiting Time For Severe Cases: 139.0
-Station 1 Maximum Waiting Time For Severe Cases: 175
-Station 2 Average Waiting Time: 92.25
-Station 2 Maximum Waiting Time: 184
-Station 2 Average Waiting Time For Severe Cases: 98.33333333333333
-Station 2 Maximum Waiting Time For Severe Cases: 184
-Station 3 Average Waiting Time: 88.0
-Station 3 Maximum Waiting Time: 181
-Station 3 Average Waiting Time For Severe Cases: 181.0
-Station 3 Maximum Waiting Time For Severe Cases: 181
-Station 4 Average Waiting Time: 102.25
-Station 4 Maximum Waiting Time: 210
-Station 4 Average Waiting Time For Severe Cases: 99.5
-Station 4 Maximum Waiting Time For Severe Cases: 210
-Station 5 Average Waiting Time: 95.0
-Station 5 Maximum Waiting Time: 191
-Station 5 Average Waiting Time For Severe Cases: 126.0
-Station 5 Maximum Waiting Time For Severe Cases: 191
-Station 6 Average Waiting Time: 102.5
-Station 6 Maximum Waiting Time: 207
-Station 6 Average Waiting Time For Severe Cases: 135.0
-Station 6 Maximum Waiting Time For Severe Cases: 207
-Station 7 Average Waiting Time: 94.0
-Station 7 Maximum Waiting Time: 194
-Station 7 Average Waiting Time For Severe Cases: 91.0
-Station 7 Maximum Waiting Time For Severe Cases: 194
-Station 8 Average Waiting Time: 10.333333333333334
-Station 8 Maximum Waiting Time: 20
-Station 8 Average Waiting Time For Severe Cases: 0
-Station 8 Maximum Waiting Time For Severe Cases: 0
-Station 9 Average Waiting Time: 63.5
-Station 9 Maximum Waiting Time: 116
-Station 9 Average Waiting Time For Severe Cases: 91.5
-Station 9 Maximum Waiting Time For Severe Cases: 116
-Station 10 Average Waiting Time: 34.25
-Station 10 Maximum Waiting Time: 71
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 71
-Average Wait Time Across All Stations: 76.68333333333334
-Average Wait Time For Severe Cases Across All Stations: 96.13333333333333
-Maximum Wait Time Across All Stations: 210
-Maximum Wait Time For Severe Cases Across All Stations: 210
-Number of Ambulances: 2
-Station 1 Average Waiting Time: 80.25
-Station 1 Maximum Waiting Time: 172
-Station 1 Average Waiting Time For Severe Cases: 50.5
-Station 1 Maximum Waiting Time For Severe Cases: 172
-Station 2 Average Waiting Time: 79.25
-Station 2 Maximum Waiting Time: 168
-Station 2 Average Waiting Time For Severe Cases: 56.0
-Station 2 Maximum Waiting Time For Severe Cases: 168
-Station 3 Average Waiting Time: 84.375
-Station 3 Maximum Waiting Time: 187
-Station 3 Average Waiting Time For Severe Cases: 104.8
-Station 3 Maximum Waiting Time For Severe Cases: 187
-Station 4 Average Waiting Time: 59.375
-Station 4 Maximum Waiting Time: 129
-Station 4 Average Waiting Time For Severe Cases: 75.66666666666667
-Station 4 Maximum Waiting Time For Severe Cases: 129
-Station 5 Average Waiting Time: 94.75
-Station 5 Maximum Waiting Time: 187
-Station 5 Average Waiting Time For Severe Cases: 21.0
-Station 5 Maximum Waiting Time For Severe Cases: 187
-Station 6 Average Waiting Time: 89.625
-Station 6 Maximum Waiting Time: 193
-Station 6 Average Waiting Time For Severe Cases: 51.333333333333336
-Station 6 Maximum Waiting Time For Severe Cases: 193
-Station 7 Average Waiting Time: 81.5
-Station 7 Maximum Waiting Time: 165
-Station 7 Average Waiting Time For Severe Cases: 99.66666666666667
-Station 7 Maximum Waiting Time For Severe Cases: 165
-Station 8 Average Waiting Time: 8.5
-Station 8 Maximum Waiting Time: 25
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 25
-Station 9 Average Waiting Time: 46.375
-Station 9 Maximum Waiting Time: 116
-Station 9 Average Waiting Time For Severe Cases: 49.0
-Station 9 Maximum Waiting Time For Severe Cases: 116
-Station 10 Average Waiting Time: 8.142857142857142
-Station 10 Maximum Waiting Time: 21
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 21
-Average Wait Time Across All Stations: 63.21428571428571
-Average Wait Time For Severe Cases Across All Stations: 50.79666666666667
-Maximum Wait Time Across All Stations: 193
-Maximum Wait Time For Severe Cases Across All Stations: 193
-Number of Ambulances: 3
-Station 1 Average Waiting Time: 5.333333333333333
-Station 1 Maximum Waiting Time: 46
-Station 1 Average Waiting Time For Severe Cases: 0.0
-Station 1 Maximum Waiting Time For Severe Cases: 46
-Station 2 Average Waiting Time: 49.2
-Station 2 Maximum Waiting Time: 102
-Station 2 Average Waiting Time For Severe Cases: 43.0
-Station 2 Maximum Waiting Time For Severe Cases: 102
-Station 3 Average Waiting Time: 85.41666666666667
-Station 3 Maximum Waiting Time: 177
-Station 3 Average Waiting Time For Severe Cases: 85.33333333333333
-Station 3 Maximum Waiting Time For Severe Cases: 177
-Station 4 Average Waiting Time: 69.41666666666667
-Station 4 Maximum Waiting Time: 137
-Station 4 Average Waiting Time For Severe Cases: 73.0
-Station 4 Maximum Waiting Time For Severe Cases: 137
-Station 5 Average Waiting Time: 5.1
-Station 5 Maximum Waiting Time: 40
-Station 5 Average Waiting Time For Severe Cases: 2.75
-Station 5 Maximum Waiting Time For Severe Cases: 40
-Station 6 Average Waiting Time: 40.27272727272727
-Station 6 Maximum Waiting Time: 90
-Station 6 Average Waiting Time For Severe Cases: 25.0
-Station 6 Maximum Waiting Time For Severe Cases: 90
-Station 7 Average Waiting Time: 28.0
-Station 7 Maximum Waiting Time: 60
-Station 7 Average Waiting Time For Severe Cases: 23.5
-Station 7 Maximum Waiting Time For Severe Cases: 60
-Station 8 Average Waiting Time: 0.5
-Station 8 Maximum Waiting Time: 2
-Station 8 Average Waiting Time For Severe Cases: 0.25
-Station 8 Maximum Waiting Time For Severe Cases: 2
-Station 9 Average Waiting Time: 49.333333333333336
-Station 9 Maximum Waiting Time: 94
-Station 9 Average Waiting Time For Severe Cases: 30.0
-Station 9 Maximum Waiting Time For Severe Cases: 94
-Station 10 Average Waiting Time: 2.5
-Station 10 Maximum Waiting Time: 15
-Station 10 Average Waiting Time For Severe Cases: 5.0
-Station 10 Maximum Waiting Time For Severe Cases: 15
-Average Wait Time Across All Stations: 33.50727272727273
-Average Wait Time For Severe Cases Across All Stations: 28.78333333333333
-Maximum Wait Time Across All Stations: 177
-Maximum Wait Time For Severe Cases Across All Stations: 177
-Number of Ambulances: 4
-Station 1 Average Waiting Time: 52.5
-Station 1 Maximum Waiting Time: 98
-Station 1 Average Waiting Time For Severe Cases: 52.857142857142854
-Station 1 Maximum Waiting Time For Severe Cases: 98
-Station 2 Average Waiting Time: 24.0625
-Station 2 Maximum Waiting Time: 79
-Station 2 Average Waiting Time For Severe Cases: 17.0
-Station 2 Maximum Waiting Time For Severe Cases: 79
-Station 3 Average Waiting Time: 27.75
-Station 3 Maximum Waiting Time: 83
-Station 3 Average Waiting Time For Severe Cases: 18.5
-Station 3 Maximum Waiting Time For Severe Cases: 83
-Station 4 Average Waiting Time: 49.5625
-Station 4 Maximum Waiting Time: 117
-Station 4 Average Waiting Time For Severe Cases: 58.5
-Station 4 Maximum Waiting Time For Severe Cases: 117
-Station 5 Average Waiting Time: 15.615384615384615
-Station 5 Maximum Waiting Time: 50
-Station 5 Average Waiting Time For Severe Cases: 0.0
-Station 5 Maximum Waiting Time For Severe Cases: 50
-Station 6 Average Waiting Time: 13.6875
-Station 6 Maximum Waiting Time: 40
-Station 6 Average Waiting Time For Severe Cases: 18.333333333333332
-Station 6 Maximum Waiting Time For Severe Cases: 40
-Station 7 Average Waiting Time: 33.4375
-Station 7 Maximum Waiting Time: 73
-Station 7 Average Waiting Time For Severe Cases: 37.44444444444444
-Station 7 Maximum Waiting Time For Severe Cases: 73
-Station 8 Average Waiting Time: 1.0
-Station 8 Maximum Waiting Time: 5
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 5
-Station 9 Average Waiting Time: 13.071428571428571
-Station 9 Maximum Waiting Time: 39
-Station 9 Average Waiting Time For Severe Cases: 14.4
-Station 9 Maximum Waiting Time For Severe Cases: 39
-Station 10 Average Waiting Time: 0.0
-Station 10 Maximum Waiting Time: 0.0
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 0
-Average Wait Time Across All Stations: 23.06868131868132
-Average Wait Time For Severe Cases Across All Stations: 21.703492063492067
-Maximum Wait Time Across All Stations: 117
-Maximum Wait Time For Severe Cases Across All Stations: 117
-Number of Ambulances: 5
-Station 1 Average Waiting Time: 5.375
-Station 1 Maximum Waiting Time: 31
-Station 1 Average Waiting Time For Severe Cases: 0.3333333333333333
-Station 1 Maximum Waiting Time For Severe Cases: 31
-Station 2 Average Waiting Time: 0.3333333333333333
-Station 2 Maximum Waiting Time: 2
-Station 2 Average Waiting Time For Severe Cases: 0.3333333333333333
-Station 2 Maximum Waiting Time For Severe Cases: 2
-Station 3 Average Waiting Time: 50.0
-Station 3 Maximum Waiting Time: 92
-Station 3 Average Waiting Time For Severe Cases: 55.75
-Station 3 Maximum Waiting Time For Severe Cases: 92
-Station 4 Average Waiting Time: 42.95
-Station 4 Maximum Waiting Time: 88
-Station 4 Average Waiting Time For Severe Cases: 37.285714285714285
-Station 4 Maximum Waiting Time For Severe Cases: 88
-Station 5 Average Waiting Time: 15.526315789473685
-Station 5 Maximum Waiting Time: 43
-Station 5 Average Waiting Time For Severe Cases: 18.833333333333332
-Station 5 Maximum Waiting Time For Severe Cases: 43
-Station 6 Average Waiting Time: 48.7
-Station 6 Maximum Waiting Time: 102
-Station 6 Average Waiting Time For Severe Cases: 65.5
-Station 6 Maximum Waiting Time For Severe Cases: 102
-Station 7 Average Waiting Time: 8.333333333333334
-Station 7 Maximum Waiting Time: 37
-Station 7 Average Waiting Time For Severe Cases: 6.777777777777778
-Station 7 Maximum Waiting Time For Severe Cases: 37
-Station 8 Average Waiting Time: 0.3333333333333333
-Station 8 Maximum Waiting Time: 2
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 2
-Station 9 Average Waiting Time: 3.2857142857142856
-Station 9 Maximum Waiting Time: 19
-Station 9 Average Waiting Time For Severe Cases: 0.0
-Station 9 Maximum Waiting Time For Severe Cases: 19
-Station 10 Average Waiting Time: 0.5
-Station 10 Maximum Waiting Time: 3
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 3
-Average Wait Time Across All Stations: 17.5337030075188
-Average Wait Time For Severe Cases Across All Stations: 18.481349206349204
-Maximum Wait Time Across All Stations: 102
-Maximum Wait Time For Severe Cases Across All Stations: 102
-Number of Ambulances: 6
-Station 1 Average Waiting Time: 16.782608695652176
-Station 1 Maximum Waiting Time: 56
-Station 1 Average Waiting Time For Severe Cases: 13.833333333333334
-Station 1 Maximum Waiting Time For Severe Cases: 56
-Station 2 Average Waiting Time: 0.5384615384615384
-Station 2 Maximum Waiting Time: 3
-Station 2 Average Waiting Time For Severe Cases: 0.5
-Station 2 Maximum Waiting Time For Severe Cases: 3
-Station 3 Average Waiting Time: 50.875
-Station 3 Maximum Waiting Time: 117
-Station 3 Average Waiting Time For Severe Cases: 30.0
-Station 3 Maximum Waiting Time For Severe Cases: 117
-Station 4 Average Waiting Time: 25.333333333333332
-Station 4 Maximum Waiting Time: 57
-Station 4 Average Waiting Time For Severe Cases: 21.875
-Station 4 Maximum Waiting Time For Severe Cases: 57
-Station 5 Average Waiting Time: 0.5
-Station 5 Maximum Waiting Time: 5
-Station 5 Average Waiting Time For Severe Cases: 0.0
-Station 5 Maximum Waiting Time For Severe Cases: 5
-Station 6 Average Waiting Time: 16.263157894736842
-Station 6 Maximum Waiting Time: 52
-Station 6 Average Waiting Time For Severe Cases: 12.714285714285714
-Station 6 Maximum Waiting Time For Severe Cases: 52
-Station 7 Average Waiting Time: 1.1
-Station 7 Maximum Waiting Time: 5
-Station 7 Average Waiting Time For Severe Cases: 0.0
-Station 7 Maximum Waiting Time For Severe Cases: 5
-Station 8 Average Waiting Time: 1.25
-Station 8 Maximum Waiting Time: 4
-Station 8 Average Waiting Time For Severe Cases: 0.5
-Station 8 Maximum Waiting Time For Severe Cases: 4
-Station 9 Average Waiting Time: 2.0
-Station 9 Maximum Waiting Time: 9
-Station 9 Average Waiting Time For Severe Cases: 0.0
-Station 9 Maximum Waiting Time For Severe Cases: 9
-Station 10 Average Waiting Time: 0.6
-Station 10 Maximum Waiting Time: 3
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 3
-Average Wait Time Across All Stations: 11.524256146218388
-Average Wait Time For Severe Cases Across All Stations: 7.942261904761905
-Maximum Wait Time Across All Stations: 117
-Maximum Wait Time For Severe Cases Across All Stations: 117
+STATION 1 Average Wait Time During Interval 0-0: 0.0
+STATION 2 Average Wait Time During Interval 0-0: 0.0
+STATION 3 Average Wait Time During Interval 0-0: 0.0
+STATION 4 Average Wait Time During Interval 0-0: 0.0
+STATION 5 Average Wait Time During Interval 0-0: 0.0
+STATION 6 Average Wait Time During Interval 0-0: 0.0
+STATION 7 Average Wait Time During Interval 0-0: 0.0
+STATION 8 Average Wait Time During Interval 0-0: 0.0
+STATION 9 Average Wait Time During Interval 0-0: 0.0
+STATION 10 Average Wait Time During Interval 0-0: 0.0
+STATION 1 Average Wait Time During Interval 15-15: 0.0
+STATION 2 Average Wait Time During Interval 15-15: 0.0
+STATION 3 Average Wait Time During Interval 15-15: 0.3333333333333333
+STATION 4 Average Wait Time During Interval 15-15: 2.0
+STATION 5 Average Wait Time During Interval 15-15: 0.0
+STATION 6 Average Wait Time During Interval 15-15: 0.0
+STATION 7 Average Wait Time During Interval 15-15: 0.0
+STATION 8 Average Wait Time During Interval 15-15: 0.0
+STATION 9 Average Wait Time During Interval 15-15: 0.0
+STATION 10 Average Wait Time During Interval 15-15: 0.0
+STATION 1 Average Wait Time During Interval 30-30: 3.0
+STATION 2 Average Wait Time During Interval 30-30: 0.0
+STATION 3 Average Wait Time During Interval 30-30: 0.0
+STATION 4 Average Wait Time During Interval 30-30: 1.0
+STATION 5 Average Wait Time During Interval 30-30: 0.0
+STATION 6 Average Wait Time During Interval 30-30: 0.0
+STATION 7 Average Wait Time During Interval 30-30: 3.0
+STATION 8 Average Wait Time During Interval 30-30: 0.0
+STATION 9 Average Wait Time During Interval 30-30: 0.0
+STATION 10 Average Wait Time During Interval 30-30: 0.0
+STATION 1 Average Wait Time During Interval 45-45: 0.5
+STATION 2 Average Wait Time During Interval 45-45: 0.0
+STATION 3 Average Wait Time During Interval 45-45: 0.0
+STATION 4 Average Wait Time During Interval 45-45: 0.0
+STATION 5 Average Wait Time During Interval 45-45: 0.0
+STATION 6 Average Wait Time During Interval 45-45: 0.0
+STATION 7 Average Wait Time During Interval 45-45: 0.0
+STATION 8 Average Wait Time During Interval 45-45: 0.0
+STATION 9 Average Wait Time During Interval 45-45: 0.0
+STATION 10 Average Wait Time During Interval 45-45: 0.0
+STATION 1 Average Wait Time During Interval 60-60: 0.0
+STATION 2 Average Wait Time During Interval 60-60: 0.0
+STATION 3 Average Wait Time During Interval 60-60: 3.5
+STATION 4 Average Wait Time During Interval 60-60: 0.0
+STATION 5 Average Wait Time During Interval 60-60: 0.0
+STATION 6 Average Wait Time During Interval 60-60: 0.0
+STATION 7 Average Wait Time During Interval 60-60: 0.0
+STATION 8 Average Wait Time During Interval 60-60: 0.0
+STATION 9 Average Wait Time During Interval 60-60: 0.0
+STATION 10 Average Wait Time During Interval 60-60: 0.0
+STATION 1 Average Wait Time During Interval 75-75: 0.0
+STATION 2 Average Wait Time During Interval 75-75: 0.0
+STATION 3 Average Wait Time During Interval 75-75: 0.0
+STATION 4 Average Wait Time During Interval 75-75: 1.0
+STATION 5 Average Wait Time During Interval 75-75: 0.0
+STATION 6 Average Wait Time During Interval 75-75: 0.3333333333333333
+STATION 7 Average Wait Time During Interval 75-75: 0.0
+STATION 8 Average Wait Time During Interval 75-75: 0.0
+STATION 9 Average Wait Time During Interval 75-75: 0.0
+STATION 10 Average Wait Time During Interval 75-75: 0.0
+STATION 1 Average Wait Time During Interval 90-90: 0.0
+STATION 2 Average Wait Time During Interval 90-90: 0.0
+STATION 3 Average Wait Time During Interval 90-90: 0.0
+STATION 4 Average Wait Time During Interval 90-90: 0.0
+STATION 5 Average Wait Time During Interval 90-90: 0.0
+STATION 6 Average Wait Time During Interval 90-90: 0.0
+STATION 7 Average Wait Time During Interval 90-90: 0.0
+STATION 8 Average Wait Time During Interval 90-90: 0.0
+STATION 9 Average Wait Time During Interval 90-90: 0.0
+STATION 10 Average Wait Time During Interval 90-90: 0.0
+STATION 1 Average Wait Time During Interval 105-105: 0.0
+STATION 2 Average Wait Time During Interval 105-105: 0.0
+STATION 3 Average Wait Time During Interval 105-105: 0.0
+STATION 4 Average Wait Time During Interval 105-105: 1.3333333333333333
+STATION 5 Average Wait Time During Interval 105-105: 0.5
+STATION 6 Average Wait Time During Interval 105-105: 25.0
+STATION 7 Average Wait Time During Interval 105-105: 0.0
+STATION 8 Average Wait Time During Interval 105-105: 0.0
+STATION 9 Average Wait Time During Interval 105-105: 0.0
+STATION 10 Average Wait Time During Interval 105-105: 0.0
+STATION 1 Average Wait Time During Interval 120-120: 0.0
+STATION 2 Average Wait Time During Interval 120-120: 0.0
+STATION 3 Average Wait Time During Interval 120-120: 0.0
+STATION 4 Average Wait Time During Interval 120-120: 0.0
+STATION 5 Average Wait Time During Interval 120-120: 0.0
+STATION 6 Average Wait Time During Interval 120-120: 27.666666666666668
+STATION 7 Average Wait Time During Interval 120-120: 0.0
+STATION 8 Average Wait Time During Interval 120-120: 0.0
+STATION 9 Average Wait Time During Interval 120-120: 0.0
+STATION 10 Average Wait Time During Interval 120-120: 0.0
+STATION 1 Average Wait Time During Interval 135-135: 0.0
+STATION 2 Average Wait Time During Interval 135-135: 0.0
+STATION 3 Average Wait Time During Interval 135-135: 0.0
+STATION 4 Average Wait Time During Interval 135-135: 0.0
+STATION 5 Average Wait Time During Interval 135-135: 0.0
+STATION 6 Average Wait Time During Interval 135-135: 0.0
+STATION 7 Average Wait Time During Interval 135-135: 0.0
+STATION 8 Average Wait Time During Interval 135-135: 0.0
+STATION 9 Average Wait Time During Interval 135-135: 0.0
+STATION 10 Average Wait Time During Interval 135-135: 0.0
+STATION 1 Average Wait Time During Interval 150-150: 0.0
+STATION 2 Average Wait Time During Interval 150-150: 0.0
+STATION 3 Average Wait Time During Interval 150-150: 0.0
+STATION 4 Average Wait Time During Interval 150-150: 0.0
+STATION 5 Average Wait Time During Interval 150-150: 0.0
+STATION 6 Average Wait Time During Interval 150-150: 0.0
+STATION 7 Average Wait Time During Interval 150-150: 0.0
+STATION 8 Average Wait Time During Interval 150-150: 0.0
+STATION 9 Average Wait Time During Interval 150-150: 0.0
+STATION 10 Average Wait Time During Interval 150-150: 0.0
+STATION 1 Average Wait Time During Interval 165-165: 0.0
+STATION 2 Average Wait Time During Interval 165-165: 0.0
+STATION 3 Average Wait Time During Interval 165-165: 0.0
+STATION 4 Average Wait Time During Interval 165-165: 13.666666666666666
+STATION 5 Average Wait Time During Interval 165-165: 0.0
+STATION 6 Average Wait Time During Interval 165-165: 2.0
+STATION 7 Average Wait Time During Interval 165-165: 0.0
+STATION 8 Average Wait Time During Interval 165-165: 0.0
+STATION 9 Average Wait Time During Interval 165-165: 0.0
+STATION 10 Average Wait Time During Interval 165-165: 0.0
+STATION 1 Average Wait Time During Interval 180-180: 0.0
+STATION 2 Average Wait Time During Interval 180-180: 0.0
+STATION 3 Average Wait Time During Interval 180-180: 0.0
+STATION 4 Average Wait Time During Interval 180-180: 13.5
+STATION 5 Average Wait Time During Interval 180-180: 3.0
+STATION 6 Average Wait Time During Interval 180-180: 0.0
+STATION 7 Average Wait Time During Interval 180-180: 1.0
+STATION 8 Average Wait Time During Interval 180-180: 0.0
+STATION 9 Average Wait Time During Interval 180-180: 2.0
+STATION 10 Average Wait Time During Interval 180-180: 0.0
+STATION 1 Average Wait Time During Interval 195-195: 5.0
+STATION 2 Average Wait Time During Interval 195-195: 0.0
+STATION 3 Average Wait Time During Interval 195-195: 0.0
+STATION 4 Average Wait Time During Interval 195-195: 2.0
+STATION 5 Average Wait Time During Interval 195-195: 0.0
+STATION 6 Average Wait Time During Interval 195-195: 0.0
+STATION 7 Average Wait Time During Interval 195-195: 0.0
+STATION 8 Average Wait Time During Interval 195-195: 0.0
+STATION 9 Average Wait Time During Interval 195-195: 0.0
+STATION 10 Average Wait Time During Interval 195-195: 0.0
+STATION 1 Average Wait Time During Interval 210-210: 3.0
+STATION 2 Average Wait Time During Interval 210-210: 0.0
+STATION 3 Average Wait Time During Interval 210-210: 0.0
+STATION 4 Average Wait Time During Interval 210-210: 0.0
+STATION 5 Average Wait Time During Interval 210-210: 0.0
+STATION 6 Average Wait Time During Interval 210-210: 0.0
+STATION 7 Average Wait Time During Interval 210-210: 0.0
+STATION 8 Average Wait Time During Interval 210-210: 0.0
+STATION 9 Average Wait Time During Interval 210-210: 0.0
+STATION 10 Average Wait Time During Interval 210-210: 0.0
+STATION 1 Average Wait Time During Interval 225-225: 0.0
+STATION 2 Average Wait Time During Interval 225-225: 0.0
+STATION 3 Average Wait Time During Interval 225-225: 0.5
+STATION 4 Average Wait Time During Interval 225-225: 0.0
+STATION 5 Average Wait Time During Interval 225-225: 0.0
+STATION 6 Average Wait Time During Interval 225-225: 0.0
+STATION 7 Average Wait Time During Interval 225-225: 1.0
+STATION 8 Average Wait Time During Interval 225-225: 0.0
+STATION 9 Average Wait Time During Interval 225-225: 0.0
+STATION 10 Average Wait Time During Interval 225-225: 0.0
+STATION 1 Average Wait Time During Interval 240-240: 0.0
+STATION 2 Average Wait Time During Interval 240-240: 0.0
+STATION 3 Average Wait Time During Interval 240-240: 5.0
+STATION 4 Average Wait Time During Interval 240-240: 0.0
+STATION 5 Average Wait Time During Interval 240-240: 0.0
+STATION 6 Average Wait Time During Interval 240-240: 0.0
+STATION 7 Average Wait Time During Interval 240-240: 0.0
+STATION 8 Average Wait Time During Interval 240-240: 1.0
+STATION 9 Average Wait Time During Interval 240-240: 0.0
+STATION 10 Average Wait Time During Interval 240-240: 0.0
+STATION 1 Average Wait Time During Interval 255-255: 0.0
+STATION 2 Average Wait Time During Interval 255-255: 0.0
+STATION 3 Average Wait Time During Interval 255-255: 0.0
+STATION 4 Average Wait Time During Interval 255-255: 0.0
+STATION 5 Average Wait Time During Interval 255-255: 0.0
+STATION 6 Average Wait Time During Interval 255-255: 0.5
+STATION 7 Average Wait Time During Interval 255-255: 3.0
+STATION 8 Average Wait Time During Interval 255-255: 0.0
+STATION 9 Average Wait Time During Interval 255-255: 0.0
+STATION 10 Average Wait Time During Interval 255-255: 0.0
+STATION 1 Average Wait Time During Interval 270-270: 0.0
+STATION 2 Average Wait Time During Interval 270-270: 0.0
+STATION 3 Average Wait Time During Interval 270-270: 1.0
+STATION 4 Average Wait Time During Interval 270-270: 0.0
+STATION 5 Average Wait Time During Interval 270-270: 0.0
+STATION 6 Average Wait Time During Interval 270-270: 0.0
+STATION 7 Average Wait Time During Interval 270-270: 2.0
+STATION 8 Average Wait Time During Interval 270-270: 0.0
+STATION 9 Average Wait Time During Interval 270-270: 0.0
+STATION 10 Average Wait Time During Interval 270-270: 0.0
+STATION 1 Average Wait Time During Interval 285-285: 0.0
+STATION 2 Average Wait Time During Interval 285-285: 0.0
+STATION 3 Average Wait Time During Interval 285-285: 0.0
+STATION 4 Average Wait Time During Interval 285-285: 0.0
+STATION 5 Average Wait Time During Interval 285-285: 0.0
+STATION 6 Average Wait Time During Interval 285-285: 0.0
+STATION 7 Average Wait Time During Interval 285-285: 0.0
+STATION 8 Average Wait Time During Interval 285-285: 0.0
+STATION 9 Average Wait Time During Interval 285-285: 0.0
+STATION 10 Average Wait Time During Interval 285-285: 0.0
+STATION 1 Average Wait Time During Interval 300-300: 1.0
+STATION 2 Average Wait Time During Interval 300-300: 0.0
+STATION 3 Average Wait Time During Interval 300-300: 0.0
+STATION 4 Average Wait Time During Interval 300-300: 0.0
+STATION 5 Average Wait Time During Interval 300-300: 0.0
+STATION 6 Average Wait Time During Interval 300-300: 0.0
+STATION 7 Average Wait Time During Interval 300-300: 0.0
+STATION 8 Average Wait Time During Interval 300-300: 0.0
+STATION 9 Average Wait Time During Interval 300-300: 0.0
+STATION 10 Average Wait Time During Interval 300-300: 0.0
+STATION 1 Average Wait Time During Interval 315-315: 0.0
+STATION 2 Average Wait Time During Interval 315-315: 0.0
+STATION 3 Average Wait Time During Interval 315-315: 0.0
+STATION 4 Average Wait Time During Interval 315-315: 0.0
+STATION 5 Average Wait Time During Interval 315-315: 0.0
+STATION 6 Average Wait Time During Interval 315-315: 0.0
+STATION 7 Average Wait Time During Interval 315-315: 1.0
+STATION 8 Average Wait Time During Interval 315-315: 0.0
+STATION 9 Average Wait Time During Interval 315-315: 0.0
+STATION 10 Average Wait Time During Interval 315-315: 0.0
+STATION 1 Average Wait Time During Interval 330-330: 0.5
+STATION 2 Average Wait Time During Interval 330-330: 0.0
+STATION 3 Average Wait Time During Interval 330-330: 0.0
+STATION 4 Average Wait Time During Interval 330-330: 0.5
+STATION 5 Average Wait Time During Interval 330-330: 0.0
+STATION 6 Average Wait Time During Interval 330-330: 0.0
+STATION 7 Average Wait Time During Interval 330-330: 0.0
+STATION 8 Average Wait Time During Interval 330-330: 0.0
+STATION 9 Average Wait Time During Interval 330-330: 0.0
+STATION 10 Average Wait Time During Interval 330-330: 0.0
+STATION 1 Average Wait Time During Interval 345-345: 0.0
+STATION 2 Average Wait Time During Interval 345-345: 0.0
+STATION 3 Average Wait Time During Interval 345-345: 0.0
+STATION 4 Average Wait Time During Interval 345-345: 0.0
+STATION 5 Average Wait Time During Interval 345-345: 0.0
+STATION 6 Average Wait Time During Interval 345-345: 0.0
+STATION 7 Average Wait Time During Interval 345-345: 0.0
+STATION 8 Average Wait Time During Interval 345-345: 0.0
+STATION 9 Average Wait Time During Interval 345-345: 0.0
+STATION 10 Average Wait Time During Interval 345-345: 0.0
+STATION 1 Average Wait Time During Interval 360-360: 0.0
+STATION 2 Average Wait Time During Interval 360-360: 0.0
+STATION 3 Average Wait Time During Interval 360-360: 0.0
+STATION 4 Average Wait Time During Interval 360-360: 0.0
+STATION 5 Average Wait Time During Interval 360-360: 0.0
+STATION 6 Average Wait Time During Interval 360-360: 0.0
+STATION 7 Average Wait Time During Interval 360-360: 0.0
+STATION 8 Average Wait Time During Interval 360-360: 0.0
+STATION 9 Average Wait Time During Interval 360-360: 0.0
+STATION 10 Average Wait Time During Interval 360-360: 0.0
+STATION 1 Average Wait Time During Interval 375-375: 0.0
+STATION 2 Average Wait Time During Interval 375-375: 0.0
+STATION 3 Average Wait Time During Interval 375-375: 0.6666666666666666
+STATION 4 Average Wait Time During Interval 375-375: 0.0
+STATION 5 Average Wait Time During Interval 375-375: 0.0
+STATION 6 Average Wait Time During Interval 375-375: 2.0
+STATION 7 Average Wait Time During Interval 375-375: 0.0
+STATION 8 Average Wait Time During Interval 375-375: 0.0
+STATION 9 Average Wait Time During Interval 375-375: 0.3333333333333333
+STATION 10 Average Wait Time During Interval 375-375: 0.0
+STATION 1 Average Wait Time During Interval 390-390: 0.0
+STATION 2 Average Wait Time During Interval 390-390: 0.0
+STATION 3 Average Wait Time During Interval 390-390: 0.0
+STATION 4 Average Wait Time During Interval 390-390: 0.0
+STATION 5 Average Wait Time During Interval 390-390: 0.0
+STATION 6 Average Wait Time During Interval 390-390: 0.0
+STATION 7 Average Wait Time During Interval 390-390: 0.0
+STATION 8 Average Wait Time During Interval 390-390: 0.0
+STATION 9 Average Wait Time During Interval 390-390: 0.0
+STATION 10 Average Wait Time During Interval 390-390: 0.0
+STATION 1 Average Wait Time During Interval 405-405: 1.0
+STATION 2 Average Wait Time During Interval 405-405: 4.0
+STATION 3 Average Wait Time During Interval 405-405: 0.0
+STATION 4 Average Wait Time During Interval 405-405: 0.0
+STATION 5 Average Wait Time During Interval 405-405: 0.0
+STATION 6 Average Wait Time During Interval 405-405: 1.0
+STATION 7 Average Wait Time During Interval 405-405: 0.0
+STATION 8 Average Wait Time During Interval 405-405: 0.0
+STATION 9 Average Wait Time During Interval 405-405: 0.0
+STATION 10 Average Wait Time During Interval 405-405: 0.0
+STATION 1 Average Wait Time During Interval 420-420: 0.0
+STATION 2 Average Wait Time During Interval 420-420: 0.0
+STATION 3 Average Wait Time During Interval 420-420: 2.0
+STATION 4 Average Wait Time During Interval 420-420: 0.0
+STATION 5 Average Wait Time During Interval 420-420: 0.0
+STATION 6 Average Wait Time During Interval 420-420: 0.0
+STATION 7 Average Wait Time During Interval 420-420: 0.0
+STATION 8 Average Wait Time During Interval 420-420: 0.0
+STATION 9 Average Wait Time During Interval 420-420: 0.0
+STATION 10 Average Wait Time During Interval 420-420: 0.0
+STATION 1 Average Wait Time During Interval 435-435: 0.0
+STATION 2 Average Wait Time During Interval 435-435: 0.0
+STATION 3 Average Wait Time During Interval 435-435: 0.0
+STATION 4 Average Wait Time During Interval 435-435: 0.0
+STATION 5 Average Wait Time During Interval 435-435: 0.0
+STATION 6 Average Wait Time During Interval 435-435: 0.0
+STATION 7 Average Wait Time During Interval 435-435: 0.0
+STATION 8 Average Wait Time During Interval 435-435: 0.0
+STATION 9 Average Wait Time During Interval 435-435: 0.0
+STATION 10 Average Wait Time During Interval 435-435: 0.0
+STATION 1 Average Wait Time During Interval 450-450: 0.0
+STATION 2 Average Wait Time During Interval 450-450: 6.0
+STATION 3 Average Wait Time During Interval 450-450: 0.0
+STATION 4 Average Wait Time During Interval 450-450: 1.3333333333333333
+STATION 5 Average Wait Time During Interval 450-450: 0.0
+STATION 6 Average Wait Time During Interval 450-450: 0.0
+STATION 7 Average Wait Time During Interval 450-450: 0.0
+STATION 8 Average Wait Time During Interval 450-450: 0.5
+STATION 9 Average Wait Time During Interval 450-450: 0.0
+STATION 10 Average Wait Time During Interval 450-450: 0.0
+STATION 1 Average Wait Time During Interval 465-465: 0.0
+STATION 2 Average Wait Time During Interval 465-465: 0.0
+STATION 3 Average Wait Time During Interval 465-465: 0.0
+STATION 4 Average Wait Time During Interval 465-465: 0.0
+STATION 5 Average Wait Time During Interval 465-465: 0.0
+STATION 6 Average Wait Time During Interval 465-465: 0.0
+STATION 7 Average Wait Time During Interval 465-465: 0.0
+STATION 8 Average Wait Time During Interval 465-465: 0.0
+STATION 9 Average Wait Time During Interval 465-465: 0.5
+STATION 10 Average Wait Time During Interval 465-465: 0.0
+STATION 1 Average Wait Time During Interval 480-480: 0.0
+STATION 2 Average Wait Time During Interval 480-480: 0.0
+STATION 3 Average Wait Time During Interval 480-480: 0.0
+STATION 4 Average Wait Time During Interval 480-480: 0.5
+STATION 5 Average Wait Time During Interval 480-480: 0.0
+STATION 6 Average Wait Time During Interval 480-480: 0.0
+STATION 7 Average Wait Time During Interval 480-480: 0.0
+STATION 8 Average Wait Time During Interval 480-480: 0.0
+STATION 9 Average Wait Time During Interval 480-480: 0.0
+STATION 10 Average Wait Time During Interval 480-480: 0.0
+STATION 1 Average Wait Time During Interval 495-495: 0.0
+STATION 2 Average Wait Time During Interval 495-495: 0.0
+STATION 3 Average Wait Time During Interval 495-495: 0.0
+STATION 4 Average Wait Time During Interval 495-495: 0.0
+STATION 5 Average Wait Time During Interval 495-495: 3.0
+STATION 6 Average Wait Time During Interval 495-495: 2.0
+STATION 7 Average Wait Time During Interval 495-495: 0.0
+STATION 8 Average Wait Time During Interval 495-495: 0.0
+STATION 9 Average Wait Time During Interval 495-495: 0.0
+STATION 10 Average Wait Time During Interval 495-495: 0.0
+STATION 1 Average Wait Time During Interval 510-510: 0.0
+STATION 2 Average Wait Time During Interval 510-510: 0.0
+STATION 3 Average Wait Time During Interval 510-510: 0.0
+STATION 4 Average Wait Time During Interval 510-510: 0.0
+STATION 5 Average Wait Time During Interval 510-510: 0.0
+STATION 6 Average Wait Time During Interval 510-510: 0.0
+STATION 7 Average Wait Time During Interval 510-510: 0.0
+STATION 8 Average Wait Time During Interval 510-510: 0.0
+STATION 9 Average Wait Time During Interval 510-510: 0.0
+STATION 10 Average Wait Time During Interval 510-510: 0.0
+STATION 1 Average Wait Time During Interval 525-525: 0.0
+STATION 2 Average Wait Time During Interval 525-525: 0.0
+STATION 3 Average Wait Time During Interval 525-525: 1.5
+STATION 4 Average Wait Time During Interval 525-525: 0.0
+STATION 5 Average Wait Time During Interval 525-525: 0.0
+STATION 6 Average Wait Time During Interval 525-525: 0.0
+STATION 7 Average Wait Time During Interval 525-525: 2.0
+STATION 8 Average Wait Time During Interval 525-525: 0.0
+STATION 9 Average Wait Time During Interval 525-525: 0.0
+STATION 10 Average Wait Time During Interval 525-525: 0.0
+STATION 1 Average Wait Time During Interval 540-540: 0.0
+STATION 2 Average Wait Time During Interval 540-540: 0.0
+STATION 3 Average Wait Time During Interval 540-540: 1.0
+STATION 4 Average Wait Time During Interval 540-540: 0.0
+STATION 5 Average Wait Time During Interval 540-540: 0.0
+STATION 6 Average Wait Time During Interval 540-540: 0.0
+STATION 7 Average Wait Time During Interval 540-540: 0.0
+STATION 8 Average Wait Time During Interval 540-540: 0.0
+STATION 9 Average Wait Time During Interval 540-540: 0.0
+STATION 10 Average Wait Time During Interval 540-540: 1.0
+STATION 1 Average Wait Time During Interval 555-555: 0.0
+STATION 2 Average Wait Time During Interval 555-555: 0.0
+STATION 3 Average Wait Time During Interval 555-555: 1.0
+STATION 4 Average Wait Time During Interval 555-555: 4.0
+STATION 5 Average Wait Time During Interval 555-555: 0.0
+STATION 6 Average Wait Time During Interval 555-555: 0.0
+STATION 7 Average Wait Time During Interval 555-555: 0.0
+STATION 8 Average Wait Time During Interval 555-555: 0.0
+STATION 9 Average Wait Time During Interval 555-555: 0.0
+STATION 10 Average Wait Time During Interval 555-555: 0.0
+STATION 1 Average Wait Time During Interval 570-570: 0.0
+STATION 2 Average Wait Time During Interval 570-570: 2.0
+STATION 3 Average Wait Time During Interval 570-570: 0.0
+STATION 4 Average Wait Time During Interval 570-570: 0.0
+STATION 5 Average Wait Time During Interval 570-570: 0.0
+STATION 6 Average Wait Time During Interval 570-570: 0.0
+STATION 7 Average Wait Time During Interval 570-570: 0.0
+STATION 8 Average Wait Time During Interval 570-570: 0.0
+STATION 9 Average Wait Time During Interval 570-570: 0.0
+STATION 10 Average Wait Time During Interval 570-570: 0.0
+STATION 1 Average Wait Time During Interval 585-585: 0.0
+STATION 2 Average Wait Time During Interval 585-585: 0.0
+STATION 3 Average Wait Time During Interval 585-585: 0.0
+STATION 4 Average Wait Time During Interval 585-585: 0.0
+STATION 5 Average Wait Time During Interval 585-585: 5.0
+STATION 6 Average Wait Time During Interval 585-585: 0.0
+STATION 7 Average Wait Time During Interval 585-585: 0.0
+STATION 8 Average Wait Time During Interval 585-585: 0.0
+STATION 9 Average Wait Time During Interval 585-585: 0.0
+STATION 10 Average Wait Time During Interval 585-585: 0.0
+STATION 1 Average Wait Time During Interval 600-600: 0.0
+STATION 2 Average Wait Time During Interval 600-600: 0.0
+STATION 3 Average Wait Time During Interval 600-600: 0.0
+STATION 4 Average Wait Time During Interval 600-600: 0.5
+STATION 5 Average Wait Time During Interval 600-600: 12.0
+STATION 6 Average Wait Time During Interval 600-600: 0.0
+STATION 7 Average Wait Time During Interval 600-600: 0.0
+STATION 8 Average Wait Time During Interval 600-600: 0.0
+STATION 9 Average Wait Time During Interval 600-600: 0.0
+STATION 10 Average Wait Time During Interval 600-600: 0.0
+STATION 1 Average Wait Time During Interval 615-615: 0.0
+STATION 2 Average Wait Time During Interval 615-615: 0.0
+STATION 3 Average Wait Time During Interval 615-615: 0.0
+STATION 4 Average Wait Time During Interval 615-615: 0.0
+STATION 5 Average Wait Time During Interval 615-615: 11.0
+STATION 6 Average Wait Time During Interval 615-615: 0.0
+STATION 7 Average Wait Time During Interval 615-615: 0.0
+STATION 8 Average Wait Time During Interval 615-615: 0.0
+STATION 9 Average Wait Time During Interval 615-615: 1.0
+STATION 10 Average Wait Time During Interval 615-615: 0.0
+STATION 1 Average Wait Time During Interval 630-630: 0.6666666666666666
+STATION 2 Average Wait Time During Interval 630-630: 0.0
+STATION 3 Average Wait Time During Interval 630-630: 0.0
+STATION 4 Average Wait Time During Interval 630-630: 0.0
+STATION 5 Average Wait Time During Interval 630-630: 0.0
+STATION 6 Average Wait Time During Interval 630-630: 0.0
+STATION 7 Average Wait Time During Interval 630-630: 1.0
+STATION 8 Average Wait Time During Interval 630-630: 0.0
+STATION 9 Average Wait Time During Interval 630-630: 0.0
+STATION 10 Average Wait Time During Interval 630-630: 0.0
+STATION 1 Average Wait Time During Interval 645-645: 0.0
+STATION 2 Average Wait Time During Interval 645-645: 0.0
+STATION 3 Average Wait Time During Interval 645-645: 0.0
+STATION 4 Average Wait Time During Interval 645-645: 0.0
+STATION 5 Average Wait Time During Interval 645-645: 0.0
+STATION 6 Average Wait Time During Interval 645-645: 1.0
+STATION 7 Average Wait Time During Interval 645-645: 0.0
+STATION 8 Average Wait Time During Interval 645-645: 0.0
+STATION 9 Average Wait Time During Interval 645-645: 0.0
+STATION 10 Average Wait Time During Interval 645-645: 0.0
+STATION 1 Average Wait Time During Interval 660-660: 0.3333333333333333
+STATION 2 Average Wait Time During Interval 660-660: 0.0
+STATION 3 Average Wait Time During Interval 660-660: 3.0
+STATION 4 Average Wait Time During Interval 660-660: 0.0
+STATION 5 Average Wait Time During Interval 660-660: 0.0
+STATION 6 Average Wait Time During Interval 660-660: 1.3333333333333333
+STATION 7 Average Wait Time During Interval 660-660: 1.5
+STATION 8 Average Wait Time During Interval 660-660: 0.0
+STATION 9 Average Wait Time During Interval 660-660: 0.0
+STATION 10 Average Wait Time During Interval 660-660: 0.0
+STATION 1 Average Wait Time During Interval 675-675: 0.0
+STATION 2 Average Wait Time During Interval 675-675: 0.0
+STATION 3 Average Wait Time During Interval 675-675: 7.0
+STATION 4 Average Wait Time During Interval 675-675: 0.0
+STATION 5 Average Wait Time During Interval 675-675: 0.0
+STATION 6 Average Wait Time During Interval 675-675: 0.0
+STATION 7 Average Wait Time During Interval 675-675: 0.0
+STATION 8 Average Wait Time During Interval 675-675: 0.0
+STATION 9 Average Wait Time During Interval 675-675: 0.0
+STATION 10 Average Wait Time During Interval 675-675: 0.0
+STATION 1 Average Wait Time During Interval 690-690: 18.5
+STATION 2 Average Wait Time During Interval 690-690: 1.5
+STATION 3 Average Wait Time During Interval 690-690: 9.0
+STATION 4 Average Wait Time During Interval 690-690: 0.0
+STATION 5 Average Wait Time During Interval 690-690: 0.0
+STATION 6 Average Wait Time During Interval 690-690: 0.0
+STATION 7 Average Wait Time During Interval 690-690: 0.0
+STATION 8 Average Wait Time During Interval 690-690: 0.0
+STATION 9 Average Wait Time During Interval 690-690: 0.3333333333333333
+STATION 10 Average Wait Time During Interval 690-690: 0.0
+STATION 1 Average Wait Time During Interval 705-705: 0.0
+STATION 2 Average Wait Time During Interval 705-705: 0.0
+STATION 3 Average Wait Time During Interval 705-705: 2.0
+STATION 4 Average Wait Time During Interval 705-705: 0.0
+STATION 5 Average Wait Time During Interval 705-705: 0.0
+STATION 6 Average Wait Time During Interval 705-705: 0.0
+STATION 7 Average Wait Time During Interval 705-705: 0.0
+STATION 8 Average Wait Time During Interval 705-705: 0.0
+STATION 9 Average Wait Time During Interval 705-705: 2.0
+STATION 10 Average Wait Time During Interval 705-705: 0.0
+STATION 1 Average Wait Time During Interval 720-720: 0.0
+STATION 2 Average Wait Time During Interval 720-720: 3.0
+STATION 3 Average Wait Time During Interval 720-720: 0.0
+STATION 4 Average Wait Time During Interval 720-720: 0.0
+STATION 5 Average Wait Time During Interval 720-720: 0.0
+STATION 6 Average Wait Time During Interval 720-720: 0.25
+STATION 7 Average Wait Time During Interval 720-720: 0.0
+STATION 8 Average Wait Time During Interval 720-720: 0.0
+STATION 9 Average Wait Time During Interval 720-720: 0.0
+STATION 10 Average Wait Time During Interval 720-720: 0.0
+STATION 1 Average Wait Time During Interval 735-735: 0.0
+STATION 2 Average Wait Time During Interval 735-735: 1.3333333333333333
+STATION 3 Average Wait Time During Interval 735-735: 0.0
+STATION 4 Average Wait Time During Interval 735-735: 6.0
+STATION 5 Average Wait Time During Interval 735-735: 0.0
+STATION 6 Average Wait Time During Interval 735-735: 5.5
+STATION 7 Average Wait Time During Interval 735-735: 1.5
+STATION 8 Average Wait Time During Interval 735-735: 0.0
+STATION 9 Average Wait Time During Interval 735-735: 0.0
+STATION 10 Average Wait Time During Interval 735-735: 0.0
+STATION 1 Average Wait Time During Interval 750-750: 0.0
+STATION 2 Average Wait Time During Interval 750-750: 0.0
+STATION 3 Average Wait Time During Interval 750-750: 12.5
+STATION 4 Average Wait Time During Interval 750-750: 14.0
+STATION 5 Average Wait Time During Interval 750-750: 0.0
+STATION 6 Average Wait Time During Interval 750-750: 0.0
+STATION 7 Average Wait Time During Interval 750-750: 0.0
+STATION 8 Average Wait Time During Interval 750-750: 0.0
+STATION 9 Average Wait Time During Interval 750-750: 0.0
+STATION 10 Average Wait Time During Interval 750-750: 1.0
+STATION 1 Average Wait Time During Interval 765-765: 0.0
+STATION 2 Average Wait Time During Interval 765-765: 0.0
+STATION 3 Average Wait Time During Interval 765-765: 22.0
+STATION 4 Average Wait Time During Interval 765-765: 20.0
+STATION 5 Average Wait Time During Interval 765-765: 0.0
+STATION 6 Average Wait Time During Interval 765-765: 0.0
+STATION 7 Average Wait Time During Interval 765-765: 5.5
+STATION 8 Average Wait Time During Interval 765-765: 0.0
+STATION 9 Average Wait Time During Interval 765-765: 0.0
+STATION 10 Average Wait Time During Interval 765-765: 0.0
+STATION 1 Average Wait Time During Interval 780-780: 0.0
+STATION 2 Average Wait Time During Interval 780-780: 0.0
+STATION 3 Average Wait Time During Interval 780-780: 31.0
+STATION 4 Average Wait Time During Interval 780-780: 0.0
+STATION 5 Average Wait Time During Interval 780-780: 0.0
+STATION 6 Average Wait Time During Interval 780-780: 0.0
+STATION 7 Average Wait Time During Interval 780-780: 0.5
+STATION 8 Average Wait Time During Interval 780-780: 0.0
+STATION 9 Average Wait Time During Interval 780-780: 0.0
+STATION 10 Average Wait Time During Interval 780-780: 2.5
+STATION 1 Average Wait Time During Interval 795-795: 3.6666666666666665
+STATION 2 Average Wait Time During Interval 795-795: 0.0
+STATION 3 Average Wait Time During Interval 795-795: 43.0
+STATION 4 Average Wait Time During Interval 795-795: 9.0
+STATION 5 Average Wait Time During Interval 795-795: 0.0
+STATION 6 Average Wait Time During Interval 795-795: 0.0
+STATION 7 Average Wait Time During Interval 795-795: 0.0
+STATION 8 Average Wait Time During Interval 795-795: 0.0
+STATION 9 Average Wait Time During Interval 795-795: 0.0
+STATION 10 Average Wait Time During Interval 795-795: 0.0
+STATION 1 Average Wait Time During Interval 810-810: 0.0
+STATION 2 Average Wait Time During Interval 810-810: 6.0
+STATION 3 Average Wait Time During Interval 810-810: 48.0
+STATION 4 Average Wait Time During Interval 810-810: 21.333333333333332
+STATION 5 Average Wait Time During Interval 810-810: 0.0
+STATION 6 Average Wait Time During Interval 810-810: 6.0
+STATION 7 Average Wait Time During Interval 810-810: 0.0
+STATION 8 Average Wait Time During Interval 810-810: 0.0
+STATION 9 Average Wait Time During Interval 810-810: 0.0
+STATION 10 Average Wait Time During Interval 810-810: 0.0
+STATION 1 Average Wait Time During Interval 825-825: 21.0
+STATION 2 Average Wait Time During Interval 825-825: 0.0
+STATION 3 Average Wait Time During Interval 825-825: 45.0
+STATION 4 Average Wait Time During Interval 825-825: 20.0
+STATION 5 Average Wait Time During Interval 825-825: 0.0
+STATION 6 Average Wait Time During Interval 825-825: 1.5
+STATION 7 Average Wait Time During Interval 825-825: 0.0
+STATION 8 Average Wait Time During Interval 825-825: 0.0
+STATION 9 Average Wait Time During Interval 825-825: 0.0
+STATION 10 Average Wait Time During Interval 825-825: 0.0
+STATION 1 Average Wait Time During Interval 840-840: 18.333333333333332
+STATION 2 Average Wait Time During Interval 840-840: 2.0
+STATION 3 Average Wait Time During Interval 840-840: 55.0
+STATION 4 Average Wait Time During Interval 840-840: 24.5
+STATION 5 Average Wait Time During Interval 840-840: 0.0
+STATION 6 Average Wait Time During Interval 840-840: 0.0
+STATION 7 Average Wait Time During Interval 840-840: 1.0
+STATION 8 Average Wait Time During Interval 840-840: 0.0
+STATION 9 Average Wait Time During Interval 840-840: 0.0
+STATION 10 Average Wait Time During Interval 840-840: 0.0
+STATION 1 Average Wait Time During Interval 855-855: 4.5
+STATION 2 Average Wait Time During Interval 855-855: 0.0
+STATION 3 Average Wait Time During Interval 855-855: 58.0
+STATION 4 Average Wait Time During Interval 855-855: 14.0
+STATION 5 Average Wait Time During Interval 855-855: 0.0
+STATION 6 Average Wait Time During Interval 855-855: 0.0
+STATION 7 Average Wait Time During Interval 855-855: 0.0
+STATION 8 Average Wait Time During Interval 855-855: 0.0
+STATION 9 Average Wait Time During Interval 855-855: 0.3333333333333333
+STATION 10 Average Wait Time During Interval 855-855: 0.0
+STATION 1 Average Wait Time During Interval 870-870: 0.0
+STATION 2 Average Wait Time During Interval 870-870: 0.0
+STATION 3 Average Wait Time During Interval 870-870: 76.75
+STATION 4 Average Wait Time During Interval 870-870: 16.666666666666668
+STATION 5 Average Wait Time During Interval 870-870: 0.5
+STATION 6 Average Wait Time During Interval 870-870: 0.0
+STATION 7 Average Wait Time During Interval 870-870: 0.0
+STATION 8 Average Wait Time During Interval 870-870: 0.0
+STATION 9 Average Wait Time During Interval 870-870: 1.3333333333333333
+STATION 10 Average Wait Time During Interval 870-870: 0.0
+STATION 1 Average Wait Time During Interval 885-885: 0.0
+STATION 2 Average Wait Time During Interval 885-885: 0.0
+STATION 3 Average Wait Time During Interval 885-885: 82.0
+STATION 4 Average Wait Time During Interval 885-885: 15.0
+STATION 5 Average Wait Time During Interval 885-885: 0.0
+STATION 6 Average Wait Time During Interval 885-885: 0.0
+STATION 7 Average Wait Time During Interval 885-885: 1.0
+STATION 8 Average Wait Time During Interval 885-885: 0.0
+STATION 9 Average Wait Time During Interval 885-885: 0.0
+STATION 10 Average Wait Time During Interval 885-885: 0.0
+STATION 1 Average Wait Time During Interval 900-900: 0.0
+STATION 2 Average Wait Time During Interval 900-900: 0.0
+STATION 3 Average Wait Time During Interval 900-900: 95.0
+STATION 4 Average Wait Time During Interval 900-900: 29.0
+STATION 5 Average Wait Time During Interval 900-900: 0.0
+STATION 6 Average Wait Time During Interval 900-900: 0.0
+STATION 7 Average Wait Time During Interval 900-900: 3.0
+STATION 8 Average Wait Time During Interval 900-900: 0.0
+STATION 9 Average Wait Time During Interval 900-900: 0.0
+STATION 10 Average Wait Time During Interval 900-900: 0.0
+STATION 1 Average Wait Time During Interval 915-915: 0.0
+STATION 2 Average Wait Time During Interval 915-915: 0.0
+STATION 3 Average Wait Time During Interval 915-915: 79.0
+STATION 4 Average Wait Time During Interval 915-915: 47.0
+STATION 5 Average Wait Time During Interval 915-915: 0.0
+STATION 6 Average Wait Time During Interval 915-915: 0.3333333333333333
+STATION 7 Average Wait Time During Interval 915-915: 0.0
+STATION 8 Average Wait Time During Interval 915-915: 0.0
+STATION 9 Average Wait Time During Interval 915-915: 8.5
+STATION 10 Average Wait Time During Interval 915-915: 0.0
+STATION 1 Average Wait Time During Interval 930-930: 0.0
+STATION 2 Average Wait Time During Interval 930-930: 2.5
+STATION 3 Average Wait Time During Interval 930-930: 94.25
+STATION 4 Average Wait Time During Interval 930-930: 47.666666666666664
+STATION 5 Average Wait Time During Interval 930-930: 0.0
+STATION 6 Average Wait Time During Interval 930-930: 0.0
+STATION 7 Average Wait Time During Interval 930-930: 0.0
+STATION 8 Average Wait Time During Interval 930-930: 0.0
+STATION 9 Average Wait Time During Interval 930-930: 0.0
+STATION 10 Average Wait Time During Interval 930-930: 0.0
+STATION 1 Average Wait Time During Interval 945-945: 4.0
+STATION 2 Average Wait Time During Interval 945-945: 0.0
+STATION 3 Average Wait Time During Interval 945-945: 105.0
+STATION 4 Average Wait Time During Interval 945-945: 53.0
+STATION 5 Average Wait Time During Interval 945-945: 0.0
+STATION 6 Average Wait Time During Interval 945-945: 0.0
+STATION 7 Average Wait Time During Interval 945-945: 0.0
+STATION 8 Average Wait Time During Interval 945-945: 0.0
+STATION 9 Average Wait Time During Interval 945-945: 0.0
+STATION 10 Average Wait Time During Interval 945-945: 0.0
+STATION 1 Average Wait Time During Interval 960-960: 0.0
+STATION 2 Average Wait Time During Interval 960-960: 0.0
+STATION 3 Average Wait Time During Interval 960-960: 116.0
+STATION 4 Average Wait Time During Interval 960-960: 42.0
+STATION 5 Average Wait Time During Interval 960-960: 0.0
+STATION 6 Average Wait Time During Interval 960-960: 14.0
+STATION 7 Average Wait Time During Interval 960-960: 0.0
+STATION 8 Average Wait Time During Interval 960-960: 0.0
+STATION 9 Average Wait Time During Interval 960-960: 1.0
+STATION 10 Average Wait Time During Interval 960-960: 0.0
+STATION 1 Average Wait Time During Interval 975-975: 0.0
+STATION 2 Average Wait Time During Interval 975-975: 0.0
+STATION 3 Average Wait Time During Interval 975-975: 122.0
+STATION 4 Average Wait Time During Interval 975-975: 37.0
+STATION 5 Average Wait Time During Interval 975-975: 0.0
+STATION 6 Average Wait Time During Interval 975-975: 7.0
+STATION 7 Average Wait Time During Interval 975-975: 1.0
+STATION 8 Average Wait Time During Interval 975-975: 0.0
+STATION 9 Average Wait Time During Interval 975-975: 0.0
+STATION 10 Average Wait Time During Interval 975-975: 3.0
+STATION 1 Average Wait Time During Interval 990-990: 0.0
+STATION 2 Average Wait Time During Interval 990-990: 0.0
+STATION 3 Average Wait Time During Interval 990-990: 120.25
+STATION 4 Average Wait Time During Interval 990-990: 52.666666666666664
+STATION 5 Average Wait Time During Interval 990-990: 0.25
+STATION 6 Average Wait Time During Interval 990-990: 26.0
+STATION 7 Average Wait Time During Interval 990-990: 0.0
+STATION 8 Average Wait Time During Interval 990-990: 0.0
+STATION 9 Average Wait Time During Interval 990-990: 2.3333333333333335
+STATION 10 Average Wait Time During Interval 990-990: 0.0
+STATION 1 Average Wait Time During Interval 1005-1005: 0.0
+STATION 2 Average Wait Time During Interval 1005-1005: 0.0
+STATION 3 Average Wait Time During Interval 1005-1005: 109.0
+STATION 4 Average Wait Time During Interval 1005-1005: 47.0
+STATION 5 Average Wait Time During Interval 1005-1005: 7.0
+STATION 6 Average Wait Time During Interval 1005-1005: 18.5
+STATION 7 Average Wait Time During Interval 1005-1005: 0.0
+STATION 8 Average Wait Time During Interval 1005-1005: 0.0
+STATION 9 Average Wait Time During Interval 1005-1005: 0.0
+STATION 10 Average Wait Time During Interval 1005-1005: 0.0
+STATION 1 Average Wait Time During Interval 1020-1020: 0.0
+STATION 2 Average Wait Time During Interval 1020-1020: 0.0
+STATION 3 Average Wait Time During Interval 1020-1020: 121.0
+STATION 4 Average Wait Time During Interval 1020-1020: 63.0
+STATION 5 Average Wait Time During Interval 1020-1020: 23.0
+STATION 6 Average Wait Time During Interval 1020-1020: 10.0
+STATION 7 Average Wait Time During Interval 1020-1020: 0.0
+STATION 8 Average Wait Time During Interval 1020-1020: 0.0
+STATION 9 Average Wait Time During Interval 1020-1020: 0.0
+STATION 10 Average Wait Time During Interval 1020-1020: 0.0
+STATION 1 Average Wait Time During Interval 1035-1035: 1.0
+STATION 2 Average Wait Time During Interval 1035-1035: 0.0
+STATION 3 Average Wait Time During Interval 1035-1035: 128.0
+STATION 4 Average Wait Time During Interval 1035-1035: 52.0
+STATION 5 Average Wait Time During Interval 1035-1035: 7.0
+STATION 6 Average Wait Time During Interval 1035-1035: 0.0
+STATION 7 Average Wait Time During Interval 1035-1035: 0.0
+STATION 8 Average Wait Time During Interval 1035-1035: 0.0
+STATION 9 Average Wait Time During Interval 1035-1035: 0.0
+STATION 10 Average Wait Time During Interval 1035-1035: 0.0
+STATION 1 Average Wait Time During Interval 1050-1050: 0.0
+STATION 2 Average Wait Time During Interval 1050-1050: 0.0
+STATION 3 Average Wait Time During Interval 1050-1050: 133.25
+STATION 4 Average Wait Time During Interval 1050-1050: 56.666666666666664
+STATION 5 Average Wait Time During Interval 1050-1050: 0.0
+STATION 6 Average Wait Time During Interval 1050-1050: 0.0
+STATION 7 Average Wait Time During Interval 1050-1050: 0.0
+STATION 8 Average Wait Time During Interval 1050-1050: 0.0
+STATION 9 Average Wait Time During Interval 1050-1050: 0.0
+STATION 10 Average Wait Time During Interval 1050-1050: 0.0
+STATION 1 Average Wait Time During Interval 1065-1065: 0.0
+STATION 2 Average Wait Time During Interval 1065-1065: 0.0
+STATION 3 Average Wait Time During Interval 1065-1065: 101.0
+STATION 4 Average Wait Time During Interval 1065-1065: 57.0
+STATION 5 Average Wait Time During Interval 1065-1065: 0.0
+STATION 6 Average Wait Time During Interval 1065-1065: 0.0
+STATION 7 Average Wait Time During Interval 1065-1065: 6.0
+STATION 8 Average Wait Time During Interval 1065-1065: 3.0
+STATION 9 Average Wait Time During Interval 1065-1065: 0.0
+STATION 10 Average Wait Time During Interval 1065-1065: 0.0
+STATION 1 Average Wait Time During Interval 1080-1080: 1.0
+STATION 2 Average Wait Time During Interval 1080-1080: 0.0
+STATION 3 Average Wait Time During Interval 1080-1080: 109.0
+STATION 4 Average Wait Time During Interval 1080-1080: 45.0
+STATION 5 Average Wait Time During Interval 1080-1080: 0.0
+STATION 6 Average Wait Time During Interval 1080-1080: 1.5
+STATION 7 Average Wait Time During Interval 1080-1080: 0.0
+STATION 8 Average Wait Time During Interval 1080-1080: 0.0
+STATION 9 Average Wait Time During Interval 1080-1080: 0.0
+STATION 10 Average Wait Time During Interval 1080-1080: 0.0
+STATION 1 Average Wait Time During Interval 1095-1095: 3.0
+STATION 2 Average Wait Time During Interval 1095-1095: 0.0
+STATION 3 Average Wait Time During Interval 1095-1095: 115.0
+STATION 4 Average Wait Time During Interval 1095-1095: 56.0
+STATION 5 Average Wait Time During Interval 1095-1095: 1.5
+STATION 6 Average Wait Time During Interval 1095-1095: 3.0
+STATION 7 Average Wait Time During Interval 1095-1095: 14.333333333333334
+STATION 8 Average Wait Time During Interval 1095-1095: 0.0
+STATION 9 Average Wait Time During Interval 1095-1095: 0.0
+STATION 10 Average Wait Time During Interval 1095-1095: 0.0
+STATION 1 Average Wait Time During Interval 1110-1110: 0.0
+STATION 2 Average Wait Time During Interval 1110-1110: 0.0
+STATION 3 Average Wait Time During Interval 1110-1110: 106.25
+STATION 4 Average Wait Time During Interval 1110-1110: 52.333333333333336
+STATION 5 Average Wait Time During Interval 1110-1110: 0.0
+STATION 6 Average Wait Time During Interval 1110-1110: 0.0
+STATION 7 Average Wait Time During Interval 1110-1110: 0.0
+STATION 8 Average Wait Time During Interval 1110-1110: 2.0
+STATION 9 Average Wait Time During Interval 1110-1110: 0.0
+STATION 10 Average Wait Time During Interval 1110-1110: 0.0
+STATION 1 Average Wait Time During Interval 1125-1125: 0.0
+STATION 2 Average Wait Time During Interval 1125-1125: 0.0
+STATION 3 Average Wait Time During Interval 1125-1125: 103.0
+STATION 4 Average Wait Time During Interval 1125-1125: 16.0
+STATION 5 Average Wait Time During Interval 1125-1125: 0.0
+STATION 6 Average Wait Time During Interval 1125-1125: 0.0
+STATION 7 Average Wait Time During Interval 1125-1125: 0.0
+STATION 8 Average Wait Time During Interval 1125-1125: 0.0
+STATION 9 Average Wait Time During Interval 1125-1125: 1.0
+STATION 10 Average Wait Time During Interval 1125-1125: 0.0
+STATION 1 Average Wait Time During Interval 1140-1140: 1.5
+STATION 2 Average Wait Time During Interval 1140-1140: 0.0
+STATION 3 Average Wait Time During Interval 1140-1140: 112.0
+STATION 4 Average Wait Time During Interval 1140-1140: 27.0
+STATION 5 Average Wait Time During Interval 1140-1140: 0.0
+STATION 6 Average Wait Time During Interval 1140-1140: 10.0
+STATION 7 Average Wait Time During Interval 1140-1140: 0.0
+STATION 8 Average Wait Time During Interval 1140-1140: 0.0
+STATION 9 Average Wait Time During Interval 1140-1140: 7.0
+STATION 10 Average Wait Time During Interval 1140-1140: 0.0
+STATION 1 Average Wait Time During Interval 1155-1155: 0.0
+STATION 2 Average Wait Time During Interval 1155-1155: 1.5
+STATION 3 Average Wait Time During Interval 1155-1155: 120.0
+STATION 4 Average Wait Time During Interval 1155-1155: 40.0
+STATION 5 Average Wait Time During Interval 1155-1155: 1.6666666666666667
+STATION 6 Average Wait Time During Interval 1155-1155: 3.0
+STATION 7 Average Wait Time During Interval 1155-1155: 0.0
+STATION 8 Average Wait Time During Interval 1155-1155: 0.0
+STATION 9 Average Wait Time During Interval 1155-1155: 3.0
+STATION 10 Average Wait Time During Interval 1155-1155: 0.0
+STATION 1 Average Wait Time During Interval 1170-1170: 1.0
+STATION 2 Average Wait Time During Interval 1170-1170: 0.0
+STATION 3 Average Wait Time During Interval 1170-1170: 112.25
+STATION 4 Average Wait Time During Interval 1170-1170: 46.333333333333336
+STATION 5 Average Wait Time During Interval 1170-1170: 0.0
+STATION 6 Average Wait Time During Interval 1170-1170: 0.0
+STATION 7 Average Wait Time During Interval 1170-1170: 0.0
+STATION 8 Average Wait Time During Interval 1170-1170: 0.0
+STATION 9 Average Wait Time During Interval 1170-1170: 0.0
+STATION 10 Average Wait Time During Interval 1170-1170: 0.0
+STATION 1 Average Wait Time During Interval 1185-1185: 2.0
+STATION 2 Average Wait Time During Interval 1185-1185: 0.0
+STATION 3 Average Wait Time During Interval 1185-1185: 116.0
+STATION 4 Average Wait Time During Interval 1185-1185: 44.0
+STATION 5 Average Wait Time During Interval 1185-1185: 0.0
+STATION 6 Average Wait Time During Interval 1185-1185: 1.5
+STATION 7 Average Wait Time During Interval 1185-1185: 0.0
+STATION 8 Average Wait Time During Interval 1185-1185: 4.0
+STATION 9 Average Wait Time During Interval 1185-1185: 0.0
+STATION 10 Average Wait Time During Interval 1185-1185: 0.0
+STATION 1 Average Wait Time During Interval 1200-1200: 1.5
+STATION 2 Average Wait Time During Interval 1200-1200: 0.0
+STATION 3 Average Wait Time During Interval 1200-1200: 129.0
+STATION 4 Average Wait Time During Interval 1200-1200: 51.5
+STATION 5 Average Wait Time During Interval 1200-1200: 0.0
+STATION 6 Average Wait Time During Interval 1200-1200: 0.0
+STATION 7 Average Wait Time During Interval 1200-1200: 0.5
+STATION 8 Average Wait Time During Interval 1200-1200: 0.0
+STATION 9 Average Wait Time During Interval 1200-1200: 2.5
+STATION 10 Average Wait Time During Interval 1200-1200: 0.0
+STATION 1 Average Wait Time During Interval 1215-1215: 0.0
+STATION 2 Average Wait Time During Interval 1215-1215: 2.0
+STATION 3 Average Wait Time During Interval 1215-1215: 138.0
+STATION 4 Average Wait Time During Interval 1215-1215: 61.0
+STATION 5 Average Wait Time During Interval 1215-1215: 0.0
+STATION 6 Average Wait Time During Interval 1215-1215: 0.0
+STATION 7 Average Wait Time During Interval 1215-1215: 0.0
+STATION 8 Average Wait Time During Interval 1215-1215: 0.0
+STATION 9 Average Wait Time During Interval 1215-1215: 0.0
+STATION 10 Average Wait Time During Interval 1215-1215: 0.0
+STATION 1 Average Wait Time During Interval 1230-1230: 0.0
+STATION 2 Average Wait Time During Interval 1230-1230: 0.0
+STATION 3 Average Wait Time During Interval 1230-1230: 141.0
+STATION 4 Average Wait Time During Interval 1230-1230: 71.0
+STATION 5 Average Wait Time During Interval 1230-1230: 0.0
+STATION 6 Average Wait Time During Interval 1230-1230: 0.0
+STATION 7 Average Wait Time During Interval 1230-1230: 0.0
+STATION 8 Average Wait Time During Interval 1230-1230: 0.0
+STATION 9 Average Wait Time During Interval 1230-1230: 0.0
+STATION 10 Average Wait Time During Interval 1230-1230: 0.0
+STATION 1 Average Wait Time During Interval 1245-1245: 0.0
+STATION 2 Average Wait Time During Interval 1245-1245: 0.0
+STATION 3 Average Wait Time During Interval 1245-1245: 142.0
+STATION 4 Average Wait Time During Interval 1245-1245: 69.0
+STATION 5 Average Wait Time During Interval 1245-1245: 0.0
+STATION 6 Average Wait Time During Interval 1245-1245: 0.0
+STATION 7 Average Wait Time During Interval 1245-1245: 0.0
+STATION 8 Average Wait Time During Interval 1245-1245: 0.0
+STATION 9 Average Wait Time During Interval 1245-1245: 0.0
+STATION 10 Average Wait Time During Interval 1245-1245: 0.0
+STATION 1 Average Wait Time During Interval 1260-1260: 0.0
+STATION 2 Average Wait Time During Interval 1260-1260: 0.0
+STATION 3 Average Wait Time During Interval 1260-1260: 124.0
+STATION 4 Average Wait Time During Interval 1260-1260: 86.0
+STATION 5 Average Wait Time During Interval 1260-1260: 0.0
+STATION 6 Average Wait Time During Interval 1260-1260: 1.0
+STATION 7 Average Wait Time During Interval 1260-1260: 0.0
+STATION 8 Average Wait Time During Interval 1260-1260: 0.0
+STATION 9 Average Wait Time During Interval 1260-1260: 0.5
+STATION 10 Average Wait Time During Interval 1260-1260: 0.0
+STATION 1 Average Wait Time During Interval 1275-1275: 4.0
+STATION 2 Average Wait Time During Interval 1275-1275: 0.0
+STATION 3 Average Wait Time During Interval 1275-1275: 114.0
+STATION 4 Average Wait Time During Interval 1275-1275: 95.0
+STATION 5 Average Wait Time During Interval 1275-1275: 5.0
+STATION 6 Average Wait Time During Interval 1275-1275: 0.0
+STATION 7 Average Wait Time During Interval 1275-1275: 0.0
+STATION 8 Average Wait Time During Interval 1275-1275: 0.0
+STATION 9 Average Wait Time During Interval 1275-1275: 0.0
+STATION 10 Average Wait Time During Interval 1275-1275: 0.0
+STATION 1 Average Wait Time During Interval 1290-1290: 0.0
+STATION 2 Average Wait Time During Interval 1290-1290: 0.5
+STATION 3 Average Wait Time During Interval 1290-1290: 112.75
+STATION 4 Average Wait Time During Interval 1290-1290: 92.33333333333333
+STATION 5 Average Wait Time During Interval 1290-1290: 1.0
+STATION 6 Average Wait Time During Interval 1290-1290: 0.0
+STATION 7 Average Wait Time During Interval 1290-1290: 0.0
+STATION 8 Average Wait Time During Interval 1290-1290: 0.0
+STATION 9 Average Wait Time During Interval 1290-1290: 0.0
+STATION 10 Average Wait Time During Interval 1290-1290: 0.0
+STATION 1 Average Wait Time During Interval 1305-1305: 0.0
+STATION 2 Average Wait Time During Interval 1305-1305: 3.0
+STATION 3 Average Wait Time During Interval 1305-1305: 113.0
+STATION 4 Average Wait Time During Interval 1305-1305: 95.0
+STATION 5 Average Wait Time During Interval 1305-1305: 0.0
+STATION 6 Average Wait Time During Interval 1305-1305: 0.0
+STATION 7 Average Wait Time During Interval 1305-1305: 0.0
+STATION 8 Average Wait Time During Interval 1305-1305: 0.0
+STATION 9 Average Wait Time During Interval 1305-1305: 0.0
+STATION 10 Average Wait Time During Interval 1305-1305: 2.5
+STATION 1 Average Wait Time During Interval 1320-1320: 0.0
+STATION 2 Average Wait Time During Interval 1320-1320: 0.0
+STATION 3 Average Wait Time During Interval 1320-1320: 119.0
+STATION 4 Average Wait Time During Interval 1320-1320: 99.5
+STATION 5 Average Wait Time During Interval 1320-1320: 0.0
+STATION 6 Average Wait Time During Interval 1320-1320: 0.0
+STATION 7 Average Wait Time During Interval 1320-1320: 1.3333333333333333
+STATION 8 Average Wait Time During Interval 1320-1320: 0.0
+STATION 9 Average Wait Time During Interval 1320-1320: 0.0
+STATION 10 Average Wait Time During Interval 1320-1320: 2.0
+STATION 1 Average Wait Time During Interval 1335-1335: 0.0
+STATION 2 Average Wait Time During Interval 1335-1335: 0.0
+STATION 3 Average Wait Time During Interval 1335-1335: 130.0
+STATION 4 Average Wait Time During Interval 1335-1335: 97.0
+STATION 5 Average Wait Time During Interval 1335-1335: 1.0
+STATION 6 Average Wait Time During Interval 1335-1335: 0.0
+STATION 7 Average Wait Time During Interval 1335-1335: 0.0
+STATION 8 Average Wait Time During Interval 1335-1335: 0.0
+STATION 9 Average Wait Time During Interval 1335-1335: 0.0
+STATION 10 Average Wait Time During Interval 1335-1335: 0.0
+STATION 1 Average Wait Time During Interval 1350-1350: 0.0
+STATION 2 Average Wait Time During Interval 1350-1350: 0.0
+STATION 3 Average Wait Time During Interval 1350-1350: 128.75
+STATION 4 Average Wait Time During Interval 1350-1350: 101.33333333333333
+STATION 5 Average Wait Time During Interval 1350-1350: 0.0
+STATION 6 Average Wait Time During Interval 1350-1350: 0.0
+STATION 7 Average Wait Time During Interval 1350-1350: 10.0
+STATION 8 Average Wait Time During Interval 1350-1350: 2.0
+STATION 9 Average Wait Time During Interval 1350-1350: 0.0
+STATION 10 Average Wait Time During Interval 1350-1350: 0.0
+STATION 1 Average Wait Time During Interval 1365-1365: 0.0
+STATION 2 Average Wait Time During Interval 1365-1365: 0.0
+STATION 3 Average Wait Time During Interval 1365-1365: 128.0
+STATION 4 Average Wait Time During Interval 1365-1365: 105.0
+STATION 5 Average Wait Time During Interval 1365-1365: 0.0
+STATION 6 Average Wait Time During Interval 1365-1365: 3.0
+STATION 7 Average Wait Time During Interval 1365-1365: 0.0
+STATION 8 Average Wait Time During Interval 1365-1365: 0.0
+STATION 9 Average Wait Time During Interval 1365-1365: 0.0
+STATION 10 Average Wait Time During Interval 1365-1365: 0.0
+STATION 1 Average Wait Time During Interval 1380-1380: 0.6666666666666666
+STATION 2 Average Wait Time During Interval 1380-1380: 0.0
+STATION 3 Average Wait Time During Interval 1380-1380: 126.0
+STATION 4 Average Wait Time During Interval 1380-1380: 112.0
+STATION 5 Average Wait Time During Interval 1380-1380: 0.0
+STATION 6 Average Wait Time During Interval 1380-1380: 0.0
+STATION 7 Average Wait Time During Interval 1380-1380: 19.666666666666668
+STATION 8 Average Wait Time During Interval 1380-1380: 0.0
+STATION 9 Average Wait Time During Interval 1380-1380: 0.0
+STATION 10 Average Wait Time During Interval 1380-1380: 0.0
+STATION 1 Average Wait Time During Interval 1395-1395: 0.0
+STATION 2 Average Wait Time During Interval 1395-1395: 0.0
+STATION 3 Average Wait Time During Interval 1395-1395: 135.0
+STATION 4 Average Wait Time During Interval 1395-1395: 118.0
+STATION 5 Average Wait Time During Interval 1395-1395: 0.0
+STATION 6 Average Wait Time During Interval 1395-1395: 1.0
+STATION 7 Average Wait Time During Interval 1395-1395: 0.0
+STATION 8 Average Wait Time During Interval 1395-1395: 0.0
+STATION 9 Average Wait Time During Interval 1395-1395: 0.0
+STATION 10 Average Wait Time During Interval 1395-1395: 0.0
+STATION 1 Average Wait Time During Interval 1410-1410: 1.0
+STATION 2 Average Wait Time During Interval 1410-1410: 0.0
+STATION 3 Average Wait Time During Interval 1410-1410: 148.5
+STATION 4 Average Wait Time During Interval 1410-1410: 122.33333333333333
+STATION 5 Average Wait Time During Interval 1410-1410: 0.0
+STATION 6 Average Wait Time During Interval 1410-1410: 0.5
+STATION 7 Average Wait Time During Interval 1410-1410: 0.0
+STATION 8 Average Wait Time During Interval 1410-1410: 1.0
+STATION 9 Average Wait Time During Interval 1410-1410: 1.5
+STATION 10 Average Wait Time During Interval 1410-1410: 0.0
 Number of Ambulances: 7
-Station 1 Average Waiting Time: 0.75
-Station 1 Maximum Waiting Time: 4
-Station 1 Average Waiting Time For Severe Cases: 0.0
-Station 1 Maximum Waiting Time For Severe Cases: 4
-Station 2 Average Waiting Time: 0.9166666666666666
-Station 2 Maximum Waiting Time: 5
-Station 2 Average Waiting Time For Severe Cases: 0.0
-Station 2 Maximum Waiting Time For Severe Cases: 5
-Station 3 Average Waiting Time: 11.346153846153847
-Station 3 Maximum Waiting Time: 43
-Station 3 Average Waiting Time For Severe Cases: 3.6
-Station 3 Maximum Waiting Time For Severe Cases: 43
-Station 4 Average Waiting Time: 16.692307692307693
-Station 4 Maximum Waiting Time: 53
-Station 4 Average Waiting Time For Severe Cases: 20.5
-Station 4 Maximum Waiting Time For Severe Cases: 53
-Station 5 Average Waiting Time: 0.75
-Station 5 Maximum Waiting Time: 4
-Station 5 Average Waiting Time For Severe Cases: 0.4444444444444444
-Station 5 Maximum Waiting Time For Severe Cases: 4
-Station 6 Average Waiting Time: 0.26666666666666666
-Station 6 Maximum Waiting Time: 2
-Station 6 Average Waiting Time For Severe Cases: 0.0
-Station 6 Maximum Waiting Time For Severe Cases: 2
-Station 7 Average Waiting Time: 1.4444444444444444
-Station 7 Maximum Waiting Time: 18
-Station 7 Average Waiting Time For Severe Cases: 0.6
-Station 7 Maximum Waiting Time For Severe Cases: 18
-Station 8 Average Waiting Time: 0.8333333333333334
-Station 8 Maximum Waiting Time: 4
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 4
-Station 9 Average Waiting Time: 1.7894736842105263
-Station 9 Maximum Waiting Time: 14
-Station 9 Average Waiting Time For Severe Cases: 1.5555555555555556
-Station 9 Maximum Waiting Time For Severe Cases: 14
-Station 10 Average Waiting Time: 0.5
-Station 10 Maximum Waiting Time: 1
-Station 10 Average Waiting Time For Severe Cases: 1.0
-Station 10 Maximum Waiting Time For Severe Cases: 1
-Average Wait Time Across All Stations: 3.5289046333783176
-Average Wait Time For Severe Cases Across All Stations: 2.7700000000000005
-Maximum Wait Time Across All Stations: 53
-Maximum Wait Time For Severe Cases Across All Stations: 53
-Number of Ambulances: 8
-Station 1 Average Waiting Time: 0.7692307692307693
-Station 1 Maximum Waiting Time: 5
-Station 1 Average Waiting Time For Severe Cases: 0.25
-Station 1 Maximum Waiting Time For Severe Cases: 5
-Station 2 Average Waiting Time: 0.3333333333333333
-Station 2 Maximum Waiting Time: 2
-Station 2 Average Waiting Time For Severe Cases: 0.0
+Station 1 Average Waiting Time: 1.989010989010989
+Station 1 Maximum Waiting Time: 22
+Station 1 Average Waiting Time For Severe Cases: 3.0
+Station 1 Maximum Waiting Time For Severe Cases: 21
+Station 2 Average Waiting Time: 0.6666666666666666
+Station 2 Maximum Waiting Time: 6
+Station 2 Average Waiting Time For Severe Cases: 0.15384615384615385
 Station 2 Maximum Waiting Time For Severe Cases: 2
-Station 3 Average Waiting Time: 27.0
-Station 3 Maximum Waiting Time: 62
-Station 3 Average Waiting Time For Severe Cases: 30.333333333333332
-Station 3 Maximum Waiting Time For Severe Cases: 62
-Station 4 Average Waiting Time: 18.06451612903226
-Station 4 Maximum Waiting Time: 61
-Station 4 Average Waiting Time For Severe Cases: 19.916666666666668
-Station 4 Maximum Waiting Time For Severe Cases: 61
-Station 5 Average Waiting Time: 0.375
-Station 5 Maximum Waiting Time: 4
-Station 5 Average Waiting Time For Severe Cases: 0.0
-Station 5 Maximum Waiting Time For Severe Cases: 4
-Station 6 Average Waiting Time: 4.3
-Station 6 Maximum Waiting Time: 30
-Station 6 Average Waiting Time For Severe Cases: 1.875
-Station 6 Maximum Waiting Time For Severe Cases: 30
-Station 7 Average Waiting Time: 0.42105263157894735
-Station 7 Maximum Waiting Time: 4
-Station 7 Average Waiting Time For Severe Cases: 0.0
-Station 7 Maximum Waiting Time For Severe Cases: 4
-Station 8 Average Waiting Time: 0.0
-Station 8 Maximum Waiting Time: 0.0
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 0
-Station 9 Average Waiting Time: 1.0625
-Station 9 Maximum Waiting Time: 5
-Station 9 Average Waiting Time For Severe Cases: 0.16666666666666666
-Station 9 Maximum Waiting Time For Severe Cases: 5
-Station 10 Average Waiting Time: 0.6
-Station 10 Maximum Waiting Time: 3
-Station 10 Average Waiting Time For Severe Cases: 0
-Station 10 Maximum Waiting Time For Severe Cases: 0
-Average Wait Time Across All Stations: 5.29256328631753
-Average Wait Time For Severe Cases Across All Stations: 5.254166666666666
-Maximum Wait Time Across All Stations: 62
-Maximum Wait Time For Severe Cases Across All Stations: 62
-Number of Ambulances: 9
-Station 1 Average Waiting Time: 0.4444444444444444
-Station 1 Maximum Waiting Time: 2
-Station 1 Average Waiting Time For Severe Cases: 0.25
-Station 1 Maximum Waiting Time For Severe Cases: 2
-Station 2 Average Waiting Time: 0.9166666666666666
-Station 2 Maximum Waiting Time: 5
-Station 2 Average Waiting Time For Severe Cases: 0.0
-Station 2 Maximum Waiting Time For Severe Cases: 5
-Station 3 Average Waiting Time: 2.727272727272727
-Station 3 Maximum Waiting Time: 16
-Station 3 Average Waiting Time For Severe Cases: 0.0
-Station 3 Maximum Waiting Time For Severe Cases: 16
-Station 4 Average Waiting Time: 1.24
-Station 4 Maximum Waiting Time: 19
-Station 4 Average Waiting Time For Severe Cases: 2.3
-Station 4 Maximum Waiting Time For Severe Cases: 19
-Station 5 Average Waiting Time: 0.375
-Station 5 Maximum Waiting Time: 3
-Station 5 Average Waiting Time For Severe Cases: 0.0
-Station 5 Maximum Waiting Time For Severe Cases: 3
-Station 6 Average Waiting Time: 1.375
-Station 6 Maximum Waiting Time: 16
-Station 6 Average Waiting Time For Severe Cases: 0.0
-Station 6 Maximum Waiting Time For Severe Cases: 16
-Station 7 Average Waiting Time: 0.4444444444444444
-Station 7 Maximum Waiting Time: 5
-Station 7 Average Waiting Time For Severe Cases: 0.125
-Station 7 Maximum Waiting Time For Severe Cases: 5
-Station 8 Average Waiting Time: 2.0
+Station 3 Average Waiting Time: 58.71328671328671
+Station 3 Maximum Waiting Time: 153
+Station 3 Average Waiting Time For Severe Cases: 51.8235294117647
+Station 3 Maximum Waiting Time For Severe Cases: 151
+Station 4 Average Waiting Time: 34.41984732824427
+Station 4 Maximum Waiting Time: 128
+Station 4 Average Waiting Time For Severe Cases: 36.38181818181818
+Station 4 Maximum Waiting Time For Severe Cases: 123
+Station 5 Average Waiting Time: 1.3013698630136987
+Station 5 Maximum Waiting Time: 23
+Station 5 Average Waiting Time For Severe Cases: 1.0714285714285714
+Station 5 Maximum Waiting Time For Severe Cases: 12
+Station 6 Average Waiting Time: 2.7314814814814814
+Station 6 Maximum Waiting Time: 32
+Station 6 Average Waiting Time For Severe Cases: 2.625
+Station 6 Maximum Waiting Time For Severe Cases: 26
+Station 7 Average Waiting Time: 1.923913043478261
+Station 7 Maximum Waiting Time: 30
+Station 7 Average Waiting Time For Severe Cases: 2.129032258064516
+Station 7 Maximum Waiting Time For Severe Cases: 30
+Station 8 Average Waiting Time: 0.5555555555555556
 Station 8 Maximum Waiting Time: 4
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 4
-Station 9 Average Waiting Time: 0.16666666666666666
-Station 9 Maximum Waiting Time: 2
-Station 9 Average Waiting Time For Severe Cases: 0.0
-Station 9 Maximum Waiting Time For Severe Cases: 2
-Station 10 Average Waiting Time: 0.5
-Station 10 Maximum Waiting Time: 3
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 3
-Average Wait Time Across All Stations: 1.0189494949494948
-Average Wait Time For Severe Cases Across All Stations: 0.26749999999999996
-Maximum Wait Time Across All Stations: 19
-Maximum Wait Time For Severe Cases Across All Stations: 19
-Number of Ambulances: 10
-Station 1 Average Waiting Time: 0.7058823529411765
-Station 1 Maximum Waiting Time: 4
-Station 1 Average Waiting Time For Severe Cases: 0.0
-Station 1 Maximum Waiting Time For Severe Cases: 4
-Station 2 Average Waiting Time: 0.4
-Station 2 Maximum Waiting Time: 4
-Station 2 Average Waiting Time For Severe Cases: 0.0
-Station 2 Maximum Waiting Time For Severe Cases: 4
-Station 3 Average Waiting Time: 0.8846153846153846
-Station 3 Maximum Waiting Time: 8
-Station 3 Average Waiting Time For Severe Cases: 0.8888888888888888
-Station 3 Maximum Waiting Time For Severe Cases: 8
-Station 4 Average Waiting Time: 0.35294117647058826
-Station 4 Maximum Waiting Time: 3
-Station 4 Average Waiting Time For Severe Cases: 0.0
-Station 4 Maximum Waiting Time For Severe Cases: 3
-Station 5 Average Waiting Time: 0.5625
-Station 5 Maximum Waiting Time: 3
-Station 5 Average Waiting Time For Severe Cases: 0.14285714285714285
-Station 5 Maximum Waiting Time For Severe Cases: 3
-Station 6 Average Waiting Time: 0.9333333333333333
-Station 6 Maximum Waiting Time: 4
-Station 6 Average Waiting Time For Severe Cases: 0.6
-Station 6 Maximum Waiting Time For Severe Cases: 4
-Station 7 Average Waiting Time: 1.0
-Station 7 Maximum Waiting Time: 5
-Station 7 Average Waiting Time For Severe Cases: 0.25
-Station 7 Maximum Waiting Time For Severe Cases: 5
-Station 8 Average Waiting Time: 0.25
-Station 8 Maximum Waiting Time: 1
-Station 8 Average Waiting Time For Severe Cases: 0.3333333333333333
+Station 8 Average Waiting Time For Severe Cases: 0.09090909090909091
 Station 8 Maximum Waiting Time For Severe Cases: 1
-Station 9 Average Waiting Time: 0.6842105263157895
-Station 9 Maximum Waiting Time: 4
-Station 9 Average Waiting Time For Severe Cases: 0.0
-Station 9 Maximum Waiting Time For Severe Cases: 4
-Station 10 Average Waiting Time: 0.3333333333333333
-Station 10 Maximum Waiting Time: 1
-Station 10 Average Waiting Time For Severe Cases: 0.5
+Station 9 Average Waiting Time: 0.7142857142857143
+Station 9 Maximum Waiting Time: 14
+Station 9 Average Waiting Time For Severe Cases: 0.8571428571428571
+Station 9 Maximum Waiting Time For Severe Cases: 14
+Station 10 Average Waiting Time: 0.5666666666666667
+Station 10 Maximum Waiting Time: 5
+Station 10 Average Waiting Time For Severe Cases: 0.15384615384615385
 Station 10 Maximum Waiting Time For Severe Cases: 1
-Average Wait Time Across All Stations: 0.6106816107009605
-Average Wait Time For Severe Cases Across All Stations: 0.27150793650793653
-Maximum Wait Time Across All Stations: 8
-Maximum Wait Time For Severe Cases Across All Stations: 8
-Number of Ambulances: 11
-Station 1 Average Waiting Time: 0.48148148148148145
-Station 1 Maximum Waiting Time: 4
-Station 1 Average Waiting Time For Severe Cases: 0.0
-Station 1 Maximum Waiting Time For Severe Cases: 4
-Station 2 Average Waiting Time: 0.2222222222222222
-Station 2 Maximum Waiting Time: 1
-Station 2 Average Waiting Time For Severe Cases: 0.0
-Station 2 Maximum Waiting Time For Severe Cases: 1
-Station 3 Average Waiting Time: 0.9285714285714286
-Station 3 Maximum Waiting Time: 4
-Station 3 Average Waiting Time For Severe Cases: 0.1
-Station 3 Maximum Waiting Time For Severe Cases: 4
-Station 4 Average Waiting Time: 0.8333333333333334
-Station 4 Maximum Waiting Time: 5
-Station 4 Average Waiting Time For Severe Cases: 0.0
-Station 4 Maximum Waiting Time For Severe Cases: 5
-Station 5 Average Waiting Time: 1.0
-Station 5 Maximum Waiting Time: 4
-Station 5 Average Waiting Time For Severe Cases: 0.0
-Station 5 Maximum Waiting Time For Severe Cases: 4
-Station 6 Average Waiting Time: 0.23809523809523808
-Station 6 Maximum Waiting Time: 3
-Station 6 Average Waiting Time For Severe Cases: 0.0
-Station 6 Maximum Waiting Time For Severe Cases: 3
-Station 7 Average Waiting Time: 0.5454545454545454
-Station 7 Maximum Waiting Time: 4
-Station 7 Average Waiting Time For Severe Cases: 0.25
-Station 7 Maximum Waiting Time For Severe Cases: 4
-Station 8 Average Waiting Time: 0.0
-Station 8 Maximum Waiting Time: 0.0
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 0
-Station 9 Average Waiting Time: 0.15384615384615385
-Station 9 Maximum Waiting Time: 1
-Station 9 Average Waiting Time For Severe Cases: 0.0
-Station 9 Maximum Waiting Time For Severe Cases: 1
-Station 10 Average Waiting Time: 0.0
-Station 10 Maximum Waiting Time: 0.0
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 0
-Average Wait Time Across All Stations: 0.44030044030044035
-Average Wait Time For Severe Cases Across All Stations: 0.034999999999999996
-Maximum Wait Time Across All Stations: 5
-Maximum Wait Time For Severe Cases Across All Stations: 5
-Number of Ambulances: 12
-Station 1 Average Waiting Time: 1.25
-Station 1 Maximum Waiting Time: 5
-Station 1 Average Waiting Time For Severe Cases: 1.0
-Station 1 Maximum Waiting Time For Severe Cases: 5
-Station 2 Average Waiting Time: 0.4666666666666667
-Station 2 Maximum Waiting Time: 4
-Station 2 Average Waiting Time For Severe Cases: 0.25
-Station 2 Maximum Waiting Time For Severe Cases: 4
-Station 3 Average Waiting Time: 0.9285714285714286
-Station 3 Maximum Waiting Time: 5
-Station 3 Average Waiting Time For Severe Cases: 0.1111111111111111
-Station 3 Maximum Waiting Time For Severe Cases: 5
-Station 4 Average Waiting Time: 0.5
-Station 4 Maximum Waiting Time: 5
-Station 4 Average Waiting Time For Severe Cases: 0.0
-Station 4 Maximum Waiting Time For Severe Cases: 5
-Station 5 Average Waiting Time: 0.1875
-Station 5 Maximum Waiting Time: 1
-Station 5 Average Waiting Time For Severe Cases: 0.16666666666666666
-Station 5 Maximum Waiting Time For Severe Cases: 1
-Station 6 Average Waiting Time: 0.75
-Station 6 Maximum Waiting Time: 3
-Station 6 Average Waiting Time For Severe Cases: 0.625
-Station 6 Maximum Waiting Time For Severe Cases: 3
-Station 7 Average Waiting Time: 0.5
-Station 7 Maximum Waiting Time: 3
-Station 7 Average Waiting Time For Severe Cases: 0.16666666666666666
-Station 7 Maximum Waiting Time For Severe Cases: 3
-Station 8 Average Waiting Time: 0.0
-Station 8 Maximum Waiting Time: 0.0
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 0
-Station 9 Average Waiting Time: 0.1875
-Station 9 Maximum Waiting Time: 2
-Station 9 Average Waiting Time For Severe Cases: 0.0
-Station 9 Maximum Waiting Time For Severe Cases: 2
-Station 10 Average Waiting Time: 0.3333333333333333
-Station 10 Maximum Waiting Time: 2
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 2
-Average Wait Time Across All Stations: 0.5103571428571428
-Average Wait Time For Severe Cases Across All Stations: 0.23194444444444443
-Maximum Wait Time Across All Stations: 5
-Maximum Wait Time For Severe Cases Across All Stations: 5
+Average Wait Time Across All Stations: 10.358208402169002
+Average Wait Time For Severe Cases Across All Stations: 9.828655267882024
+Maximum Wait Time Across All Stations: 153
+Maximum Wait Time For Severe Cases Across All Stations: 151

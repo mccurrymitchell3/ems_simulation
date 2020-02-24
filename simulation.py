@@ -27,7 +27,7 @@ def generateStations(numAmbulances, transitTime):
 
 # we run the simulation for a varying number of ambulances per station, documenting
 # the average wait time depending on number of ambulances available
-for numAmbulances in range(1, 13):
+for numAmbulances in range(7, 8):
 
     stations = generateStations(numAmbulances, transitTime)
 
@@ -50,6 +50,9 @@ for numAmbulances in range(1, 13):
             stationNumber = i + 1
             print("STATION %s" % stationNumber)
             s = stations[i]
+
+            previousTotalWaitTime = s.totalWaitingTime
+            previousCallsProcessed = s.callEventsProcessed
             # While there are elements in the priority queue, process the next element
             while (not s.callQueue.empty() or not s.arrivalQueue.empty()) and globals.now < startTime + 15:
                 s.process_next_elem(startTime)
@@ -58,6 +61,14 @@ for numAmbulances in range(1, 13):
             # at the same time as station one but without multithreading
             globals.now = startTime
 
+            totalWaitTimeInterval = s.totalWaitingTime - previousTotalWaitTime
+            callsProcessedInterval = s.callEventsProcessed - previousCallsProcessed
+            if callsProcessedInterval == 0:
+                print("STATION %s Average Wait Time During Interval %s-%s: %s" % (stationNumber, startTime, globals.now, totalWaitTimeInterval))
+                output.append("STATION {} Average Wait Time During Interval {}-{}: {}\n".format(stationNumber, startTime, globals.now, totalWaitTimeInterval))
+            else:
+                print("STATION %s Average Wait Time During Interval %s-%s: %s" % (stationNumber, startTime, globals.now, totalWaitTimeInterval/callsProcessedInterval))
+                output.append("STATION {} Average Wait Time During Interval {}-{}: {}\n".format(stationNumber, startTime, globals.now, totalWaitTimeInterval/callsProcessedInterval))
         # Update the current time and start the next interval
         globals.now = startTime + 15
 

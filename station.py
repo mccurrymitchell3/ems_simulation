@@ -65,7 +65,7 @@ class Station:
                     globals.now = event[0]
             else:
                 globals.now = startTime + 15
-        
+
         # Process the event based on the type (call or arrival)
         if eventToProcess is not None:
             if eventToProcess[1] == 'arrival':
@@ -108,17 +108,18 @@ class Station:
         if event[3] <= 3:
             self.totalWaitingTimeSevere += waitTime
             self.severeCallEvents += 1
+            if waitTime > self.maxWaitTimeSevere:
+                self.maxWaitTimeSevere = waitTime
 
         if waitTime > self.maxWaitTime:
             self.maxWaitTime = waitTime
 
-        if waitTime > self.maxWaitTimeSevere:
-            self.maxWaitTimeSevere = waitTime
+
 
         # mark that an ambulance has left and there is now 1 less ambulance
         # available for dispatch
         self.ambulancesAtStation -= 1
-        
+
         # increment indicdents processed counter
         self.callEventsProcessed += 1
 

@@ -1,7 +1,7 @@
 import station
 import globals
 import callcenter
-import generator
+import incidents
 
 globals.init()
 output = []
@@ -31,7 +31,7 @@ for numAmbulances in range(1, 10):
     stations = generateStations(numAmbulances)
 
     cc = callcenter.CallCenter()
-    gen = generator.Generator()
+    gen = incidents.Incidents()
     duration = 300 # minutes to run simulation
 
     # Run for duration minutes

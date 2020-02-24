@@ -3,7 +3,7 @@ import globals
 import random
 import datetime
 
-class Generator:
+class Incidents:
 
     # generates incidents at 15 minute intervals
     def __init__(self):

@@ -65,6 +65,8 @@ for numAmbulances in range(1, 10):
 
     totalAvgWaitTime = 0
     totalAvgWaitTimeSevere = 0
+    totalMaxWaitTime = 0
+    totalMaxWaitTimeSevere = 0
 
     # Calculate the average waiting time for each call received
     print("numAmbulances", numAmbulances)
@@ -78,6 +80,8 @@ for numAmbulances in range(1, 10):
             print("Station %s Average Waiting Time: " % stationNumber, s.totalWaitingTime / s.callEventsProcessed)
             print("Station %s Maximum Waiting Time: " % stationNumber, s.maxWaitTime)
             totalAvgWaitTime += s.totalWaitingTime / s.callEventsProcessed
+            if s.maxWaitTime > totalMaxWaitTime:
+                totalMaxWaitTime = s.maxWaitTime
         if s.severeCallEvents == 0:
             print("Station %s Average Waiting Time For Severe Cases: " % stationNumber, 0)
             print("Station %s Maximum Waiting Time For Severe Cases: " % stationNumber, 0)
@@ -85,9 +89,13 @@ for numAmbulances in range(1, 10):
             print("Station %s Average Waiting Time For Severe Cases: " % stationNumber, s.totalWaitingTimeSevere / s.severeCallEvents)
             print("Station %s Maximum Waiting Time For Severe Cases: " % stationNumber, s.maxWaitTimeSevere)
             totalAvgWaitTimeSevere += s.totalWaitingTimeSevere / s.severeCallEvents
+            if s.maxWaitTimeSevere > totalMaxWaitTimeSevere:
+                totalMaxWaitTimeSevere = s.maxWaitTimeSevere
 
     print("Average Wait Time Across All Stations: ", totalAvgWaitTime / len(stations))
-    print("Average Wait Time Across All Stations: ", totalAvgWaitTimeSevere / len(stations))
+    print("Average Wait Time Across All Stations For Severe Cases: ", totalAvgWaitTimeSevere / len(stations))
+    print("Maximum Wait Time Across All Stations: ", totalMaxWaitTime)
+    print("Maximum Wait Time Across All Stations For Severe Cases: ", totalMaxWaitTimeSevere)
 
     # Add average waiting times for each call received to output list.
     # These stats will be written to the 'output.txt'.
@@ -109,6 +117,8 @@ for numAmbulances in range(1, 10):
             output.append("Station %s Maximum Waiting Time For Severe Cases: %s\n" % (stationNumber, s.maxWaitTimeSevere))
     output.append("Average Wait Time Across All Stations: %s\n" % (totalAvgWaitTime / len(stations)))
     output.append("Average Wait Time For Severe Cases Across All Stations: %s\n" % (totalAvgWaitTimeSevere / len(stations)))
+    output.append("Maximum Wait Time Across All Stations: %s\n" % totalMaxWaitTime)
+    output.append("Maximum Wait Time For Severe Cases Across All Stations: %s\n" % totalMaxWaitTimeSevere)
 # Write the statistics calculated for each number of ambulances to 'output.txt'.
 file = open("output.txt", "w")
 file.writelines(output)

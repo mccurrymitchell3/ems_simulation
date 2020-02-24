@@ -1,387 +1,405 @@
 Number of Ambulances: 1
-Station 1 Average Waiting Time: 6.642857142857143
-Station 1 Maximum Waiting Time: 24
-Station 1 Average Waiting Time For Severe Cases: 4.8
-Station 1 Maximum Waiting Time For Severe Cases: 24
-Station 2 Average Waiting Time: 6.333333333333333
-Station 2 Maximum Waiting Time: 19
-Station 2 Average Waiting Time For Severe Cases: 8.5
-Station 2 Maximum Waiting Time For Severe Cases: 19
-Station 3 Average Waiting Time: 71.16666666666667
-Station 3 Maximum Waiting Time: 151
-Station 3 Average Waiting Time For Severe Cases: 72.11111111111111
-Station 3 Maximum Waiting Time For Severe Cases: 151
-Station 4 Average Waiting Time: 15.166666666666666
-Station 4 Maximum Waiting Time: 36
-Station 4 Average Waiting Time For Severe Cases: 17.714285714285715
-Station 4 Maximum Waiting Time For Severe Cases: 36
-Station 5 Average Waiting Time: 22.736842105263158
-Station 5 Maximum Waiting Time: 50
-Station 5 Average Waiting Time For Severe Cases: 17.857142857142858
-Station 5 Maximum Waiting Time For Severe Cases: 50
-Station 6 Average Waiting Time: 4.933333333333334
-Station 6 Maximum Waiting Time: 20
-Station 6 Average Waiting Time For Severe Cases: 6.5
-Station 6 Maximum Waiting Time For Severe Cases: 20
-Station 7 Average Waiting Time: 1.9444444444444444
-Station 7 Maximum Waiting Time: 13
-Station 7 Average Waiting Time For Severe Cases: 2.4
-Station 7 Maximum Waiting Time For Severe Cases: 13
-Station 8 Average Waiting Time: 3.5384615384615383
-Station 8 Maximum Waiting Time: 12
-Station 8 Average Waiting Time For Severe Cases: 3.25
-Station 8 Maximum Waiting Time For Severe Cases: 12
-Station 9 Average Waiting Time: 13.714285714285714
-Station 9 Maximum Waiting Time: 34
-Station 9 Average Waiting Time For Severe Cases: 11.857142857142858
-Station 9 Maximum Waiting Time For Severe Cases: 34
-Station 10 Average Waiting Time: 0.3333333333333333
-Station 10 Maximum Waiting Time: 1
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 1
-Average Wait Time Across All Stations: 14.651022427864538
-Average Wait Time For Severe Cases Across All Stations: 14.498968253968254
+Station 1 Average Waiting Time: 10.857142857142858
+Station 1 Maximum Waiting Time: 31
+Station 1 Average Waiting Time For Severe Cases: 5.571428571428571
+Station 1 Maximum Waiting Time For Severe Cases: 31
+Station 2 Average Waiting Time: 1.2727272727272727
+Station 2 Maximum Waiting Time: 6
+Station 2 Average Waiting Time For Severe Cases: 2.0
+Station 2 Maximum Waiting Time For Severe Cases: 6
+Station 3 Average Waiting Time: 65.88888888888889
+Station 3 Maximum Waiting Time: 109
+Station 3 Average Waiting Time For Severe Cases: 67.0
+Station 3 Maximum Waiting Time For Severe Cases: 109
+Station 4 Average Waiting Time: 9.526315789473685
+Station 4 Maximum Waiting Time: 26
+Station 4 Average Waiting Time For Severe Cases: 10.333333333333334
+Station 4 Maximum Waiting Time For Severe Cases: 26
+Station 5 Average Waiting Time: 13.866666666666667
+Station 5 Maximum Waiting Time: 30
+Station 5 Average Waiting Time For Severe Cases: 13.333333333333334
+Station 5 Maximum Waiting Time For Severe Cases: 30
+Station 6 Average Waiting Time: 13.875
+Station 6 Maximum Waiting Time: 33
+Station 6 Average Waiting Time For Severe Cases: 16.0
+Station 6 Maximum Waiting Time For Severe Cases: 33
+Station 7 Average Waiting Time: 3.2777777777777777
+Station 7 Maximum Waiting Time: 16
+Station 7 Average Waiting Time For Severe Cases: 1.875
+Station 7 Maximum Waiting Time For Severe Cases: 16
+Station 8 Average Waiting Time: 5.428571428571429
+Station 8 Maximum Waiting Time: 13
+Station 8 Average Waiting Time For Severe Cases: 6.6
+Station 8 Maximum Waiting Time For Severe Cases: 13
+Station 9 Average Waiting Time: 10.375
+Station 9 Maximum Waiting Time: 31
+Station 9 Average Waiting Time For Severe Cases: 6.333333333333333
+Station 9 Maximum Waiting Time For Severe Cases: 31
+Station 10 Average Waiting Time: 1.6
+Station 10 Maximum Waiting Time: 4
+Station 10 Average Waiting Time For Severe Cases: 1.3333333333333333
+Station 10 Maximum Waiting Time For Severe Cases: 4
+Average Wait Time Across All Stations: 13.596809068124859
+Average Wait Time For Severe Cases Across All Stations: 13.03797619047619
+Maximum Wait Time Across All Stations: 109
+Maximum Wait Time For Severe Cases Across All Stations: 109
 Number of Ambulances: 2
-Station 1 Average Waiting Time: 0.0
-Station 1 Maximum Waiting Time: 0.0
-Station 1 Average Waiting Time For Severe Cases: 0.0
-Station 1 Maximum Waiting Time For Severe Cases: 0
-Station 2 Average Waiting Time: 1.0
-Station 2 Maximum Waiting Time: 2
-Station 2 Average Waiting Time For Severe Cases: 0
-Station 2 Maximum Waiting Time For Severe Cases: 0
-Station 3 Average Waiting Time: 35.91428571428571
-Station 3 Maximum Waiting Time: 77
-Station 3 Average Waiting Time For Severe Cases: 25.46153846153846
-Station 3 Maximum Waiting Time For Severe Cases: 77
-Station 4 Average Waiting Time: 2.6666666666666665
-Station 4 Maximum Waiting Time: 13
-Station 4 Average Waiting Time For Severe Cases: 0.7692307692307693
-Station 4 Maximum Waiting Time For Severe Cases: 13
-Station 5 Average Waiting Time: 4.3125
-Station 5 Maximum Waiting Time: 15
-Station 5 Average Waiting Time For Severe Cases: 2.5
-Station 5 Maximum Waiting Time For Severe Cases: 15
-Station 6 Average Waiting Time: 3.5555555555555554
-Station 6 Maximum Waiting Time: 16
-Station 6 Average Waiting Time For Severe Cases: 3.3333333333333335
-Station 6 Maximum Waiting Time For Severe Cases: 16
-Station 7 Average Waiting Time: 0.4166666666666667
-Station 7 Maximum Waiting Time: 4
-Station 7 Average Waiting Time For Severe Cases: 0.0
-Station 7 Maximum Waiting Time For Severe Cases: 4
-Station 8 Average Waiting Time: 1.0
-Station 8 Maximum Waiting Time: 6
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 6
-Station 9 Average Waiting Time: 1.9333333333333333
-Station 9 Maximum Waiting Time: 7
-Station 9 Average Waiting Time For Severe Cases: 1.0
-Station 9 Maximum Waiting Time For Severe Cases: 7
-Station 10 Average Waiting Time: 0.0
-Station 10 Maximum Waiting Time: 0.0
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 0
-Average Wait Time Across All Stations: 5.0799007936507925
-Average Wait Time For Severe Cases Across All Stations: 3.306410256410256
-Number of Ambulances: 3
-Station 1 Average Waiting Time: 0.4375
+Station 1 Average Waiting Time: 0.5555555555555556
 Station 1 Maximum Waiting Time: 5
-Station 1 Average Waiting Time For Severe Cases: 0.0
+Station 1 Average Waiting Time For Severe Cases: 0.2857142857142857
 Station 1 Maximum Waiting Time For Severe Cases: 5
-Station 2 Average Waiting Time: 1.5714285714285714
-Station 2 Maximum Waiting Time: 4
+Station 2 Average Waiting Time: 0.9166666666666666
+Station 2 Maximum Waiting Time: 7
 Station 2 Average Waiting Time For Severe Cases: 0.0
-Station 2 Maximum Waiting Time For Severe Cases: 4
-Station 3 Average Waiting Time: 1.25
-Station 3 Maximum Waiting Time: 8
-Station 3 Average Waiting Time For Severe Cases: 0.42857142857142855
-Station 3 Maximum Waiting Time For Severe Cases: 8
-Station 4 Average Waiting Time: 0.5151515151515151
-Station 4 Maximum Waiting Time: 5
-Station 4 Average Waiting Time For Severe Cases: 0.0
-Station 4 Maximum Waiting Time For Severe Cases: 5
-Station 5 Average Waiting Time: 0.29411764705882354
-Station 5 Maximum Waiting Time: 4
-Station 5 Average Waiting Time For Severe Cases: 0.1111111111111111
-Station 5 Maximum Waiting Time For Severe Cases: 4
-Station 6 Average Waiting Time: 0.92
+Station 2 Maximum Waiting Time For Severe Cases: 7
+Station 3 Average Waiting Time: 14.466666666666667
+Station 3 Maximum Waiting Time: 46
+Station 3 Average Waiting Time For Severe Cases: 26.5
+Station 3 Maximum Waiting Time For Severe Cases: 46
+Station 4 Average Waiting Time: 1.2916666666666667
+Station 4 Maximum Waiting Time: 10
+Station 4 Average Waiting Time For Severe Cases: 1.0909090909090908
+Station 4 Maximum Waiting Time For Severe Cases: 10
+Station 5 Average Waiting Time: 2.125
+Station 5 Maximum Waiting Time: 16
+Station 5 Average Waiting Time For Severe Cases: 1.7142857142857142
+Station 5 Maximum Waiting Time For Severe Cases: 16
+Station 6 Average Waiting Time: 1.4583333333333333
+Station 6 Maximum Waiting Time: 8
+Station 6 Average Waiting Time For Severe Cases: 1.1818181818181819
+Station 6 Maximum Waiting Time For Severe Cases: 8
+Station 7 Average Waiting Time: 0.8235294117647058
+Station 7 Maximum Waiting Time: 6
+Station 7 Average Waiting Time For Severe Cases: 0.0
+Station 7 Maximum Waiting Time For Severe Cases: 6
+Station 8 Average Waiting Time: 0.42857142857142855
+Station 8 Maximum Waiting Time: 1
+Station 8 Average Waiting Time For Severe Cases: 0.3333333333333333
+Station 8 Maximum Waiting Time For Severe Cases: 1
+Station 9 Average Waiting Time: 1.7727272727272727
+Station 9 Maximum Waiting Time: 14
+Station 9 Average Waiting Time For Severe Cases: 1.125
+Station 9 Maximum Waiting Time For Severe Cases: 14
+Station 10 Average Waiting Time: 1.375
+Station 10 Maximum Waiting Time: 8
+Station 10 Average Waiting Time For Severe Cases: 1.5
+Station 10 Maximum Waiting Time For Severe Cases: 8
+Average Wait Time Across All Stations: 2.5213717001952296
+Average Wait Time For Severe Cases Across All Stations: 3.373106060606061
+Maximum Wait Time Across All Stations: 46
+Maximum Wait Time For Severe Cases Across All Stations: 46
+Number of Ambulances: 3
+Station 1 Average Waiting Time: 0.4444444444444444
+Station 1 Maximum Waiting Time: 4
+Station 1 Average Waiting Time For Severe Cases: 0.2222222222222222
+Station 1 Maximum Waiting Time For Severe Cases: 4
+Station 2 Average Waiting Time: 0.5833333333333334
+Station 2 Maximum Waiting Time: 3
+Station 2 Average Waiting Time For Severe Cases: 0.16666666666666666
+Station 2 Maximum Waiting Time For Severe Cases: 3
+Station 3 Average Waiting Time: 1.8888888888888888
+Station 3 Maximum Waiting Time: 14
+Station 3 Average Waiting Time For Severe Cases: 0.0
+Station 3 Maximum Waiting Time For Severe Cases: 14
+Station 4 Average Waiting Time: 0.3181818181818182
+Station 4 Maximum Waiting Time: 4
+Station 4 Average Waiting Time For Severe Cases: 0.3
+Station 4 Maximum Waiting Time For Severe Cases: 4
+Station 5 Average Waiting Time: 0.5
+Station 5 Maximum Waiting Time: 5
+Station 5 Average Waiting Time For Severe Cases: 0.0
+Station 5 Maximum Waiting Time For Severe Cases: 5
+Station 6 Average Waiting Time: 0.8275862068965517
 Station 6 Maximum Waiting Time: 9
 Station 6 Average Waiting Time For Severe Cases: 0.5
 Station 6 Maximum Waiting Time For Severe Cases: 9
-Station 7 Average Waiting Time: 0.5625
-Station 7 Maximum Waiting Time: 5
-Station 7 Average Waiting Time For Severe Cases: 0.0
-Station 7 Maximum Waiting Time For Severe Cases: 5
-Station 8 Average Waiting Time: 0.4
-Station 8 Maximum Waiting Time: 2
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 2
-Station 9 Average Waiting Time: 1.4444444444444444
-Station 9 Maximum Waiting Time: 6
-Station 9 Average Waiting Time For Severe Cases: 0.16666666666666666
-Station 9 Maximum Waiting Time For Severe Cases: 6
-Station 10 Average Waiting Time: 1.8
-Station 10 Maximum Waiting Time: 5
-Station 10 Average Waiting Time For Severe Cases: 0
-Station 10 Maximum Waiting Time For Severe Cases: 0
-Average Wait Time Across All Stations: 0.9195142178083355
-Average Wait Time For Severe Cases Across All Stations: 0.12063492063492062
-Number of Ambulances: 4
-Station 1 Average Waiting Time: 0.6818181818181818
-Station 1 Maximum Waiting Time: 5
-Station 1 Average Waiting Time For Severe Cases: 0.0
-Station 1 Maximum Waiting Time For Severe Cases: 5
-Station 2 Average Waiting Time: 0.07692307692307693
-Station 2 Maximum Waiting Time: 1
-Station 2 Average Waiting Time For Severe Cases: 0.0
-Station 2 Maximum Waiting Time For Severe Cases: 1
-Station 3 Average Waiting Time: 1.0833333333333333
-Station 3 Maximum Waiting Time: 8
-Station 3 Average Waiting Time For Severe Cases: 1.5454545454545454
-Station 3 Maximum Waiting Time For Severe Cases: 8
-Station 4 Average Waiting Time: 0.22727272727272727
-Station 4 Maximum Waiting Time: 2
-Station 4 Average Waiting Time For Severe Cases: 0.18181818181818182
-Station 4 Maximum Waiting Time For Severe Cases: 2
-Station 5 Average Waiting Time: 0.42857142857142855
-Station 5 Maximum Waiting Time: 3
-Station 5 Average Waiting Time For Severe Cases: 0.0
-Station 5 Maximum Waiting Time For Severe Cases: 3
-Station 6 Average Waiting Time: 1.2857142857142858
-Station 6 Maximum Waiting Time: 13
-Station 6 Average Waiting Time For Severe Cases: 0.0
-Station 6 Maximum Waiting Time For Severe Cases: 13
-Station 7 Average Waiting Time: 0.2
+Station 7 Average Waiting Time: 0.6363636363636364
 Station 7 Maximum Waiting Time: 3
-Station 7 Average Waiting Time For Severe Cases: 0.0
+Station 7 Average Waiting Time For Severe Cases: 0.25
 Station 7 Maximum Waiting Time For Severe Cases: 3
-Station 8 Average Waiting Time: 0.18181818181818182
-Station 8 Maximum Waiting Time: 1
+Station 8 Average Waiting Time: 0.42857142857142855
+Station 8 Maximum Waiting Time: 3
 Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 1
-Station 9 Average Waiting Time: 0.8095238095238095
-Station 9 Maximum Waiting Time: 5
+Station 8 Maximum Waiting Time For Severe Cases: 3
+Station 9 Average Waiting Time: 1.25
+Station 9 Maximum Waiting Time: 6
 Station 9 Average Waiting Time For Severe Cases: 0.0
-Station 9 Maximum Waiting Time For Severe Cases: 5
-Station 10 Average Waiting Time: 0.8571428571428571
-Station 10 Maximum Waiting Time: 6
+Station 9 Maximum Waiting Time For Severe Cases: 6
+Station 10 Average Waiting Time: 1.2857142857142858
+Station 10 Maximum Waiting Time: 5
 Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 6
-Average Wait Time Across All Stations: 0.5832117882117881
-Average Wait Time For Severe Cases Across All Stations: 0.17272727272727273
+Station 10 Maximum Waiting Time For Severe Cases: 5
+Average Wait Time Across All Stations: 0.8163084042394388
+Average Wait Time For Severe Cases Across All Stations: 0.1438888888888889
+Maximum Wait Time Across All Stations: 14
+Maximum Wait Time For Severe Cases Across All Stations: 14
+Number of Ambulances: 4
+Station 1 Average Waiting Time: 0.4375
+Station 1 Maximum Waiting Time: 3
+Station 1 Average Waiting Time For Severe Cases: 0.4
+Station 1 Maximum Waiting Time For Severe Cases: 3
+Station 2 Average Waiting Time: 0.7
+Station 2 Maximum Waiting Time: 2
+Station 2 Average Waiting Time For Severe Cases: 0.6666666666666666
+Station 2 Maximum Waiting Time For Severe Cases: 2
+Station 3 Average Waiting Time: 0.8064516129032258
+Station 3 Maximum Waiting Time: 10
+Station 3 Average Waiting Time For Severe Cases: 0.6666666666666666
+Station 3 Maximum Waiting Time For Severe Cases: 10
+Station 4 Average Waiting Time: 0.65
+Station 4 Maximum Waiting Time: 4
+Station 4 Average Waiting Time For Severe Cases: 0.25
+Station 4 Maximum Waiting Time For Severe Cases: 4
+Station 5 Average Waiting Time: 0.9285714285714286
+Station 5 Maximum Waiting Time: 5
+Station 5 Average Waiting Time For Severe Cases: 0.2
+Station 5 Maximum Waiting Time For Severe Cases: 5
+Station 6 Average Waiting Time: 0.5238095238095238
+Station 6 Maximum Waiting Time: 6
+Station 6 Average Waiting Time For Severe Cases: 0.2
+Station 6 Maximum Waiting Time For Severe Cases: 6
+Station 7 Average Waiting Time: 0.4666666666666667
+Station 7 Maximum Waiting Time: 3
+Station 7 Average Waiting Time For Severe Cases: 0.25
+Station 7 Maximum Waiting Time For Severe Cases: 3
+Station 8 Average Waiting Time: 0.625
+Station 8 Maximum Waiting Time: 5
+Station 8 Average Waiting Time For Severe Cases: 0.0
+Station 8 Maximum Waiting Time For Severe Cases: 5
+Station 9 Average Waiting Time: 0.3333333333333333
+Station 9 Maximum Waiting Time: 2
+Station 9 Average Waiting Time For Severe Cases: 0.0
+Station 9 Maximum Waiting Time For Severe Cases: 2
+Station 10 Average Waiting Time: 0.42857142857142855
+Station 10 Maximum Waiting Time: 3
+Station 10 Average Waiting Time For Severe Cases: 0.0
+Station 10 Maximum Waiting Time For Severe Cases: 3
+Average Wait Time Across All Stations: 0.5899903993855606
+Average Wait Time For Severe Cases Across All Stations: 0.26333333333333336
+Maximum Wait Time Across All Stations: 10
+Maximum Wait Time For Severe Cases Across All Stations: 10
 Number of Ambulances: 5
-Station 1 Average Waiting Time: 0.6363636363636364
-Station 1 Maximum Waiting Time: 4
-Station 1 Average Waiting Time For Severe Cases: 0.1
-Station 1 Maximum Waiting Time For Severe Cases: 4
-Station 2 Average Waiting Time: 1.0769230769230769
-Station 2 Maximum Waiting Time: 5
-Station 2 Average Waiting Time For Severe Cases: 0.5714285714285714
-Station 2 Maximum Waiting Time For Severe Cases: 5
-Station 3 Average Waiting Time: 0.34782608695652173
+Station 1 Average Waiting Time: 0.3333333333333333
+Station 1 Maximum Waiting Time: 3
+Station 1 Average Waiting Time For Severe Cases: 0.0
+Station 1 Maximum Waiting Time For Severe Cases: 3
+Station 2 Average Waiting Time: 0.38461538461538464
+Station 2 Maximum Waiting Time: 2
+Station 2 Average Waiting Time For Severe Cases: 0.0
+Station 2 Maximum Waiting Time For Severe Cases: 2
+Station 3 Average Waiting Time: 0.8709677419354839
 Station 3 Maximum Waiting Time: 5
-Station 3 Average Waiting Time For Severe Cases: 0.1
+Station 3 Average Waiting Time For Severe Cases: 0.3333333333333333
 Station 3 Maximum Waiting Time For Severe Cases: 5
-Station 4 Average Waiting Time: 0.9333333333333333
-Station 4 Maximum Waiting Time: 6
-Station 4 Average Waiting Time For Severe Cases: 0.14285714285714285
-Station 4 Maximum Waiting Time For Severe Cases: 6
+Station 4 Average Waiting Time: 0.375
+Station 4 Maximum Waiting Time: 4
+Station 4 Average Waiting Time For Severe Cases: 0.0
+Station 4 Maximum Waiting Time For Severe Cases: 4
+Station 5 Average Waiting Time: 0.25
+Station 5 Maximum Waiting Time: 2
+Station 5 Average Waiting Time For Severe Cases: 0.3333333333333333
+Station 5 Maximum Waiting Time For Severe Cases: 2
+Station 6 Average Waiting Time: 0.75
+Station 6 Maximum Waiting Time: 6
+Station 6 Average Waiting Time For Severe Cases: 0.25
+Station 6 Maximum Waiting Time For Severe Cases: 6
+Station 7 Average Waiting Time: 1.0
+Station 7 Maximum Waiting Time: 4
+Station 7 Average Waiting Time For Severe Cases: 0.3333333333333333
+Station 7 Maximum Waiting Time For Severe Cases: 4
+Station 8 Average Waiting Time: 0.36363636363636365
+Station 8 Maximum Waiting Time: 4
+Station 8 Average Waiting Time For Severe Cases: 0.0
+Station 8 Maximum Waiting Time For Severe Cases: 4
+Station 9 Average Waiting Time: 0.2727272727272727
+Station 9 Maximum Waiting Time: 2
+Station 9 Average Waiting Time For Severe Cases: 0.0
+Station 9 Maximum Waiting Time For Severe Cases: 2
+Station 10 Average Waiting Time: 0.3333333333333333
+Station 10 Maximum Waiting Time: 2
+Station 10 Average Waiting Time For Severe Cases: 2.0
+Station 10 Maximum Waiting Time For Severe Cases: 2
+Average Wait Time Across All Stations: 0.49336134295811707
+Average Wait Time For Severe Cases Across All Stations: 0.325
+Maximum Wait Time Across All Stations: 6
+Maximum Wait Time For Severe Cases Across All Stations: 6
+Number of Ambulances: 6
+Station 1 Average Waiting Time: 0.75
+Station 1 Maximum Waiting Time: 6
+Station 1 Average Waiting Time For Severe Cases: 0.2
+Station 1 Maximum Waiting Time For Severe Cases: 6
+Station 2 Average Waiting Time: 0.5625
+Station 2 Maximum Waiting Time: 5
+Station 2 Average Waiting Time For Severe Cases: 0.125
+Station 2 Maximum Waiting Time For Severe Cases: 5
+Station 3 Average Waiting Time: 0.6296296296296297
+Station 3 Maximum Waiting Time: 3
+Station 3 Average Waiting Time For Severe Cases: 0.0
+Station 3 Maximum Waiting Time For Severe Cases: 3
+Station 4 Average Waiting Time: 0.4090909090909091
+Station 4 Maximum Waiting Time: 3
+Station 4 Average Waiting Time For Severe Cases: 0.0
+Station 4 Maximum Waiting Time For Severe Cases: 3
 Station 5 Average Waiting Time: 0.0
 Station 5 Maximum Waiting Time: 0.0
 Station 5 Average Waiting Time For Severe Cases: 0.0
 Station 5 Maximum Waiting Time For Severe Cases: 0
-Station 6 Average Waiting Time: 0.23076923076923078
-Station 6 Maximum Waiting Time: 3
-Station 6 Average Waiting Time For Severe Cases: 0.0
-Station 6 Maximum Waiting Time For Severe Cases: 3
-Station 7 Average Waiting Time: 0.6
-Station 7 Maximum Waiting Time: 6
-Station 7 Average Waiting Time For Severe Cases: 0.0
-Station 7 Maximum Waiting Time For Severe Cases: 6
-Station 8 Average Waiting Time: 0.3333333333333333
-Station 8 Maximum Waiting Time: 1
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 1
-Station 9 Average Waiting Time: 0.55
-Station 9 Maximum Waiting Time: 4
-Station 9 Average Waiting Time For Severe Cases: 0.0
-Station 9 Maximum Waiting Time For Severe Cases: 4
-Station 10 Average Waiting Time: 0.0
-Station 10 Maximum Waiting Time: 0.0
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 0
-Average Wait Time Across All Stations: 0.47085486976791324
-Average Wait Time For Severe Cases Across All Stations: 0.09142857142857141
-Number of Ambulances: 6
-Station 1 Average Waiting Time: 0.6428571428571429
-Station 1 Maximum Waiting Time: 3
-Station 1 Average Waiting Time For Severe Cases: 0.0
-Station 1 Maximum Waiting Time For Severe Cases: 3
-Station 2 Average Waiting Time: 0.9090909090909091
-Station 2 Maximum Waiting Time: 5
-Station 2 Average Waiting Time For Severe Cases: 0.0
-Station 2 Maximum Waiting Time For Severe Cases: 5
-Station 3 Average Waiting Time: 0.3448275862068966
-Station 3 Maximum Waiting Time: 3
-Station 3 Average Waiting Time For Severe Cases: 0.14285714285714285
-Station 3 Maximum Waiting Time For Severe Cases: 3
-Station 4 Average Waiting Time: 0.6086956521739131
-Station 4 Maximum Waiting Time: 5
-Station 4 Average Waiting Time For Severe Cases: 0.1
-Station 4 Maximum Waiting Time For Severe Cases: 5
-Station 5 Average Waiting Time: 0.04
-Station 5 Maximum Waiting Time: 1
-Station 5 Average Waiting Time For Severe Cases: 0.0
-Station 5 Maximum Waiting Time For Severe Cases: 1
-Station 6 Average Waiting Time: 0.391304347826087
-Station 6 Maximum Waiting Time: 3
-Station 6 Average Waiting Time For Severe Cases: 0.1111111111111111
-Station 6 Maximum Waiting Time For Severe Cases: 3
-Station 7 Average Waiting Time: 0.3157894736842105
+Station 6 Average Waiting Time: 0.6538461538461539
+Station 6 Maximum Waiting Time: 5
+Station 6 Average Waiting Time For Severe Cases: 0.09090909090909091
+Station 6 Maximum Waiting Time For Severe Cases: 5
+Station 7 Average Waiting Time: 0.2222222222222222
 Station 7 Maximum Waiting Time: 3
 Station 7 Average Waiting Time For Severe Cases: 0.0
 Station 7 Maximum Waiting Time For Severe Cases: 3
-Station 8 Average Waiting Time: 0.16666666666666666
-Station 8 Maximum Waiting Time: 1
-Station 8 Average Waiting Time For Severe Cases: 0.5
-Station 8 Maximum Waiting Time For Severe Cases: 1
-Station 9 Average Waiting Time: 1.375
-Station 9 Maximum Waiting Time: 5
-Station 9 Average Waiting Time For Severe Cases: 0.3333333333333333
-Station 9 Maximum Waiting Time For Severe Cases: 5
-Station 10 Average Waiting Time: 0.875
-Station 10 Maximum Waiting Time: 4
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 4
-Average Wait Time Across All Stations: 0.5669231778505825
-Average Wait Time For Severe Cases Across All Stations: 0.11873015873015873
-Number of Ambulances: 7
-Station 1 Average Waiting Time: 0.9333333333333333
-Station 1 Maximum Waiting Time: 6
-Station 1 Average Waiting Time For Severe Cases: 0.0
-Station 1 Maximum Waiting Time For Severe Cases: 6
-Station 2 Average Waiting Time: 0.0
-Station 2 Maximum Waiting Time: 0.0
-Station 2 Average Waiting Time For Severe Cases: 0.0
-Station 2 Maximum Waiting Time For Severe Cases: 0
-Station 3 Average Waiting Time: 0.5
-Station 3 Maximum Waiting Time: 3
-Station 3 Average Waiting Time For Severe Cases: 0.0
-Station 3 Maximum Waiting Time For Severe Cases: 3
-Station 4 Average Waiting Time: 0.631578947368421
-Station 4 Maximum Waiting Time: 5
-Station 4 Average Waiting Time For Severe Cases: 0.0
-Station 4 Maximum Waiting Time For Severe Cases: 5
-Station 5 Average Waiting Time: 0.5714285714285714
-Station 5 Maximum Waiting Time: 4
-Station 5 Average Waiting Time For Severe Cases: 0.3333333333333333
-Station 5 Maximum Waiting Time For Severe Cases: 4
-Station 6 Average Waiting Time: 0.6842105263157895
-Station 6 Maximum Waiting Time: 3
-Station 6 Average Waiting Time For Severe Cases: 0.6
-Station 6 Maximum Waiting Time For Severe Cases: 3
-Station 7 Average Waiting Time: 0.45454545454545453
-Station 7 Maximum Waiting Time: 3
-Station 7 Average Waiting Time For Severe Cases: 0.0
-Station 7 Maximum Waiting Time For Severe Cases: 3
-Station 8 Average Waiting Time: 0.6666666666666666
-Station 8 Maximum Waiting Time: 5
-Station 8 Average Waiting Time For Severe Cases: 0.14285714285714285
-Station 8 Maximum Waiting Time For Severe Cases: 5
-Station 9 Average Waiting Time: 0.5
-Station 9 Maximum Waiting Time: 4
-Station 9 Average Waiting Time For Severe Cases: 0.0
-Station 9 Maximum Waiting Time For Severe Cases: 4
-Station 10 Average Waiting Time: 0.14285714285714285
-Station 10 Maximum Waiting Time: 1
-Station 10 Average Waiting Time For Severe Cases: 0.2
-Station 10 Maximum Waiting Time For Severe Cases: 1
-Average Wait Time Across All Stations: 0.508462064251538
-Average Wait Time For Severe Cases Across All Stations: 0.1276190476190476
-Number of Ambulances: 8
-Station 1 Average Waiting Time: 0.4666666666666667
-Station 1 Maximum Waiting Time: 3
-Station 1 Average Waiting Time For Severe Cases: 0.14285714285714285
-Station 1 Maximum Waiting Time For Severe Cases: 3
-Station 2 Average Waiting Time: 0.18181818181818182
-Station 2 Maximum Waiting Time: 2
-Station 2 Average Waiting Time For Severe Cases: 0.0
-Station 2 Maximum Waiting Time For Severe Cases: 2
-Station 3 Average Waiting Time: 0.23333333333333334
-Station 3 Maximum Waiting Time: 2
-Station 3 Average Waiting Time For Severe Cases: 0.15384615384615385
-Station 3 Maximum Waiting Time For Severe Cases: 2
-Station 4 Average Waiting Time: 0.8
-Station 4 Maximum Waiting Time: 5
-Station 4 Average Waiting Time For Severe Cases: 0.0
-Station 4 Maximum Waiting Time For Severe Cases: 5
-Station 5 Average Waiting Time: 0.06666666666666667
-Station 5 Maximum Waiting Time: 1
-Station 5 Average Waiting Time For Severe Cases: 0.0
-Station 5 Maximum Waiting Time For Severe Cases: 1
-Station 6 Average Waiting Time: 0.43478260869565216
-Station 6 Maximum Waiting Time: 6
-Station 6 Average Waiting Time For Severe Cases: 0.0
-Station 6 Maximum Waiting Time For Severe Cases: 6
-Station 7 Average Waiting Time: 1.0952380952380953
-Station 7 Maximum Waiting Time: 5
-Station 7 Average Waiting Time For Severe Cases: 0.25
-Station 7 Maximum Waiting Time For Severe Cases: 5
-Station 8 Average Waiting Time: 0.4
-Station 8 Maximum Waiting Time: 3
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 3
-Station 9 Average Waiting Time: 0.1111111111111111
-Station 9 Maximum Waiting Time: 2
-Station 9 Average Waiting Time For Severe Cases: 0.18181818181818182
-Station 9 Maximum Waiting Time For Severe Cases: 2
-Station 10 Average Waiting Time: 0.14285714285714285
-Station 10 Maximum Waiting Time: 1
-Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 1
-Average Wait Time Across All Stations: 0.39324738063868503
-Average Wait Time For Severe Cases Across All Stations: 0.07285214785214786
-Number of Ambulances: 9
-Station 1 Average Waiting Time: 0.5
-Station 1 Maximum Waiting Time: 5
-Station 1 Average Waiting Time For Severe Cases: 0.0
-Station 1 Maximum Waiting Time For Severe Cases: 5
-Station 2 Average Waiting Time: 0.2857142857142857
-Station 2 Maximum Waiting Time: 2
-Station 2 Average Waiting Time For Severe Cases: 0.0
-Station 2 Maximum Waiting Time For Severe Cases: 2
-Station 3 Average Waiting Time: 0.5151515151515151
-Station 3 Maximum Waiting Time: 4
-Station 3 Average Waiting Time For Severe Cases: 0.15384615384615385
-Station 3 Maximum Waiting Time For Severe Cases: 4
-Station 4 Average Waiting Time: 0.6129032258064516
-Station 4 Maximum Waiting Time: 5
-Station 4 Average Waiting Time For Severe Cases: 0.3333333333333333
-Station 4 Maximum Waiting Time For Severe Cases: 5
-Station 5 Average Waiting Time: 0.5
-Station 5 Maximum Waiting Time: 3
-Station 5 Average Waiting Time For Severe Cases: 0.0
-Station 5 Maximum Waiting Time For Severe Cases: 3
-Station 6 Average Waiting Time: 0.3103448275862069
-Station 6 Maximum Waiting Time: 3
-Station 6 Average Waiting Time For Severe Cases: 0.07142857142857142
-Station 6 Maximum Waiting Time For Severe Cases: 3
-Station 7 Average Waiting Time: 0.6538461538461539
-Station 7 Maximum Waiting Time: 5
-Station 7 Average Waiting Time For Severe Cases: 0.3
-Station 7 Maximum Waiting Time For Severe Cases: 5
-Station 8 Average Waiting Time: 0.0
-Station 8 Maximum Waiting Time: 0.0
-Station 8 Average Waiting Time For Severe Cases: 0.0
-Station 8 Maximum Waiting Time For Severe Cases: 0
-Station 9 Average Waiting Time: 0.8888888888888888
+Station 8 Average Waiting Time: 0.625
+Station 8 Maximum Waiting Time: 4
+Station 8 Average Waiting Time For Severe Cases: 0.16666666666666666
+Station 8 Maximum Waiting Time For Severe Cases: 4
+Station 9 Average Waiting Time: 1.0666666666666667
 Station 9 Maximum Waiting Time: 6
 Station 9 Average Waiting Time For Severe Cases: 0.0
 Station 9 Maximum Waiting Time For Severe Cases: 6
-Station 10 Average Waiting Time: 0.0
-Station 10 Maximum Waiting Time: 0.0
+Station 10 Average Waiting Time: 1.0
+Station 10 Maximum Waiting Time: 5
 Station 10 Average Waiting Time For Severe Cases: 0.0
-Station 10 Maximum Waiting Time For Severe Cases: 0
-Average Wait Time Across All Stations: 0.42668488969935014
-Average Wait Time For Severe Cases Across All Stations: 0.08586080586080587
+Station 10 Maximum Waiting Time For Severe Cases: 5
+Average Wait Time Across All Stations: 0.5918955581455582
+Average Wait Time For Severe Cases Across All Stations: 0.05825757575757575
+Maximum Wait Time Across All Stations: 6
+Maximum Wait Time For Severe Cases Across All Stations: 6
+Number of Ambulances: 7
+Station 1 Average Waiting Time: 0.6
+Station 1 Maximum Waiting Time: 4
+Station 1 Average Waiting Time For Severe Cases: 0.0
+Station 1 Maximum Waiting Time For Severe Cases: 4
+Station 2 Average Waiting Time: 0.8888888888888888
+Station 2 Maximum Waiting Time: 4
+Station 2 Average Waiting Time For Severe Cases: 0.0
+Station 2 Maximum Waiting Time For Severe Cases: 4
+Station 3 Average Waiting Time: 0.2692307692307692
+Station 3 Maximum Waiting Time: 3
+Station 3 Average Waiting Time For Severe Cases: 0.15384615384615385
+Station 3 Maximum Waiting Time For Severe Cases: 3
+Station 4 Average Waiting Time: 0.8636363636363636
+Station 4 Maximum Waiting Time: 5
+Station 4 Average Waiting Time For Severe Cases: 0.5
+Station 4 Maximum Waiting Time For Severe Cases: 5
+Station 5 Average Waiting Time: 0.46153846153846156
+Station 5 Maximum Waiting Time: 4
+Station 5 Average Waiting Time For Severe Cases: 0.0
+Station 5 Maximum Waiting Time For Severe Cases: 4
+Station 6 Average Waiting Time: 0.36363636363636365
+Station 6 Maximum Waiting Time: 3
+Station 6 Average Waiting Time For Severe Cases: 0.1
+Station 6 Maximum Waiting Time For Severe Cases: 3
+Station 7 Average Waiting Time: 0.47368421052631576
+Station 7 Maximum Waiting Time: 5
+Station 7 Average Waiting Time For Severe Cases: 0.125
+Station 7 Maximum Waiting Time For Severe Cases: 5
+Station 8 Average Waiting Time: 0.16666666666666666
+Station 8 Maximum Waiting Time: 1
+Station 8 Average Waiting Time For Severe Cases: 0.0
+Station 8 Maximum Waiting Time For Severe Cases: 1
+Station 9 Average Waiting Time: 0.5625
+Station 9 Maximum Waiting Time: 3
+Station 9 Average Waiting Time For Severe Cases: 0.0
+Station 9 Maximum Waiting Time For Severe Cases: 3
+Station 10 Average Waiting Time: 0.25
+Station 10 Maximum Waiting Time: 1
+Station 10 Average Waiting Time For Severe Cases: 0.0
+Station 10 Maximum Waiting Time For Severe Cases: 1
+Average Wait Time Across All Stations: 0.489978172412383
+Average Wait Time For Severe Cases Across All Stations: 0.08788461538461538
+Maximum Wait Time Across All Stations: 5
+Maximum Wait Time For Severe Cases Across All Stations: 5
+Number of Ambulances: 8
+Station 1 Average Waiting Time: 0.8333333333333334
+Station 1 Maximum Waiting Time: 3
+Station 1 Average Waiting Time For Severe Cases: 0.0
+Station 1 Maximum Waiting Time For Severe Cases: 3
+Station 2 Average Waiting Time: 0.15384615384615385
+Station 2 Maximum Waiting Time: 2
+Station 2 Average Waiting Time For Severe Cases: 0.0
+Station 2 Maximum Waiting Time For Severe Cases: 2
+Station 3 Average Waiting Time: 0.7037037037037037
+Station 3 Maximum Waiting Time: 6
+Station 3 Average Waiting Time For Severe Cases: 0.3333333333333333
+Station 3 Maximum Waiting Time For Severe Cases: 6
+Station 4 Average Waiting Time: 0.2777777777777778
+Station 4 Maximum Waiting Time: 2
+Station 4 Average Waiting Time For Severe Cases: 0.14285714285714285
+Station 4 Maximum Waiting Time For Severe Cases: 2
+Station 5 Average Waiting Time: 0.5833333333333334
+Station 5 Maximum Waiting Time: 3
+Station 5 Average Waiting Time For Severe Cases: 0.0
+Station 5 Maximum Waiting Time For Severe Cases: 3
+Station 6 Average Waiting Time: 0.5714285714285714
+Station 6 Maximum Waiting Time: 4
+Station 6 Average Waiting Time For Severe Cases: 0.0
+Station 6 Maximum Waiting Time For Severe Cases: 4
+Station 7 Average Waiting Time: 0.75
+Station 7 Maximum Waiting Time: 3
+Station 7 Average Waiting Time For Severe Cases: 0.0
+Station 7 Maximum Waiting Time For Severe Cases: 3
+Station 8 Average Waiting Time: 0.3333333333333333
+Station 8 Maximum Waiting Time: 1
+Station 8 Average Waiting Time For Severe Cases: 0.25
+Station 8 Maximum Waiting Time For Severe Cases: 1
+Station 9 Average Waiting Time: 0.46153846153846156
+Station 9 Maximum Waiting Time: 6
+Station 9 Average Waiting Time For Severe Cases: 0.0
+Station 9 Maximum Waiting Time For Severe Cases: 6
+Station 10 Average Waiting Time: 0.125
+Station 10 Maximum Waiting Time: 1
+Station 10 Average Waiting Time For Severe Cases: 0.0
+Station 10 Maximum Waiting Time For Severe Cases: 1
+Average Wait Time Across All Stations: 0.4793294668294668
+Average Wait Time For Severe Cases Across All Stations: 0.07261904761904761
+Maximum Wait Time Across All Stations: 6
+Maximum Wait Time For Severe Cases Across All Stations: 6
+Number of Ambulances: 9
+Station 1 Average Waiting Time: 0.5333333333333333
+Station 1 Maximum Waiting Time: 3
+Station 1 Average Waiting Time For Severe Cases: 0.125
+Station 1 Maximum Waiting Time For Severe Cases: 3
+Station 2 Average Waiting Time: 0.058823529411764705
+Station 2 Maximum Waiting Time: 1
+Station 2 Average Waiting Time For Severe Cases: 0.0
+Station 2 Maximum Waiting Time For Severe Cases: 1
+Station 3 Average Waiting Time: 0.38095238095238093
+Station 3 Maximum Waiting Time: 3
+Station 3 Average Waiting Time For Severe Cases: 0.0
+Station 3 Maximum Waiting Time For Severe Cases: 3
+Station 4 Average Waiting Time: 0.46153846153846156
+Station 4 Maximum Waiting Time: 5
+Station 4 Average Waiting Time For Severe Cases: 0.0
+Station 4 Maximum Waiting Time For Severe Cases: 5
+Station 5 Average Waiting Time: 0.7647058823529411
+Station 5 Maximum Waiting Time: 5
+Station 5 Average Waiting Time For Severe Cases: 0.14285714285714285
+Station 5 Maximum Waiting Time For Severe Cases: 5
+Station 6 Average Waiting Time: 0.6666666666666666
+Station 6 Maximum Waiting Time: 5
+Station 6 Average Waiting Time For Severe Cases: 0.42857142857142855
+Station 6 Maximum Waiting Time For Severe Cases: 5
+Station 7 Average Waiting Time: 0.6363636363636364
+Station 7 Maximum Waiting Time: 4
+Station 7 Average Waiting Time For Severe Cases: 0.0
+Station 7 Maximum Waiting Time For Severe Cases: 4
+Station 8 Average Waiting Time: 0.3333333333333333
+Station 8 Maximum Waiting Time: 3
+Station 8 Average Waiting Time For Severe Cases: 0.0
+Station 8 Maximum Waiting Time For Severe Cases: 3
+Station 9 Average Waiting Time: 0.4444444444444444
+Station 9 Maximum Waiting Time: 3
+Station 9 Average Waiting Time For Severe Cases: 0.0
+Station 9 Maximum Waiting Time For Severe Cases: 3
+Station 10 Average Waiting Time: 1.1666666666666667
+Station 10 Maximum Waiting Time: 5
+Station 10 Average Waiting Time For Severe Cases: 0.0
+Station 10 Maximum Waiting Time For Severe Cases: 5
+Average Wait Time Across All Stations: 0.5446828335063629
+Average Wait Time For Severe Cases Across All Stations: 0.06964285714285715
+Maximum Wait Time Across All Stations: 5
+Maximum Wait Time For Severe Cases Across All Stations: 5

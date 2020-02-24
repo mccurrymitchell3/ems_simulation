@@ -11,12 +11,10 @@ class Station:
 
         # initialize values
         self.totalWaitingTime = 0.0
-        self.avgWaitTime = 0.0
         self.maxWaitTime = 0.0
         self.callEventsProcessed = 0
         self.severeCallEvents = 0
         self.totalWaitingTimeSevere = 0
-        self.avgWaitTimeSevere = 0
         self.maxWaitTimeSevere = 0
 
         self.callQueue = queue.PriorityQueue()

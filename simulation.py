@@ -5,19 +5,20 @@ import incidents
 
 globals.init()
 output = []
+transitTime = 60 # average round trip transit time for an ambulance dispatch
 
 # Generate 10 stations representing the 10 stations in Brooklyn and their average route times
-def generateStations(numAmbulances):
-    s1 = station.Station(numAmbulances, 15)
-    s2 = station.Station(numAmbulances, 12)
-    s3 = station.Station(numAmbulances, 17)
-    s4 = station.Station(numAmbulances, 10)
-    s5 = station.Station(numAmbulances, 13)
-    s6 = station.Station(numAmbulances, 14)
-    s7 = station.Station(numAmbulances, 9)
-    s8 = station.Station(numAmbulances, 11)
-    s9 = station.Station(numAmbulances, 13)
-    s10 = station.Station(numAmbulances, 15)
+def generateStations(numAmbulances, transitTime):
+    s1 = station.Station(numAmbulances, transitTime)
+    s2 = station.Station(numAmbulances, transitTime)
+    s3 = station.Station(numAmbulances, transitTime)
+    s4 = station.Station(numAmbulances, transitTime)
+    s5 = station.Station(numAmbulances, transitTime)
+    s6 = station.Station(numAmbulances, transitTime)
+    s7 = station.Station(numAmbulances, transitTime)
+    s8 = station.Station(numAmbulances, transitTime)
+    s9 = station.Station(numAmbulances, transitTime)
+    s10 = station.Station(numAmbulances, transitTime)
 
     stations = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10]
 
@@ -26,9 +27,9 @@ def generateStations(numAmbulances):
 
 # we run the simulation for a varying number of ambulances per station, documenting
 # the average wait time depending on number of ambulances available
-for numAmbulances in range(1, 10):
+for numAmbulances in range(1, 13):
 
-    stations = generateStations(numAmbulances)
+    stations = generateStations(numAmbulances, transitTime)
 
     cc = callcenter.CallCenter()
     gen = incidents.Incidents()

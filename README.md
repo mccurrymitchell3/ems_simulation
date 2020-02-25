@@ -8,4 +8,12 @@ This repository is meant to simulate EMS calls in the Bronx, NY by randomly gene
 
 To run our simulation, clone/download our repository and import the module "python/3.6" on the PACE Cluster (```module load python/3.6```) and then run ```python simulation.py```.
 
-The number of ambulances available at a station can be changed in the ```simulation.py``` file.
+The range of the number of ambulances available at a station can be changed in the ```simulation.py``` file.
+
+## Interpreting the results
+
+The results of our simulation write to the output.txt file. Refer to that file for average and maximum waiting time per station, per iteration.
+
+The statistics.txt file contains the statistics we ran for the confidence intervals in our study.
+
+Further results are explained in the project PDF 
